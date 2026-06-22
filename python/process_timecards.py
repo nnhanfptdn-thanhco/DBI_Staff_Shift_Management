@@ -52,3 +52,5 @@ print(processed_df)
 # Lưu kết quả ra file CSV (Tương đương việc insert ngược lại vào SQL để báo cáo)
 processed_df.to_csv('processed_timecards.csv', index=False)
 print("\n[BƯỚC 3] Đã xuất báo cáo ra file 'processed_timecards.csv' thành công để đem đi báo cáo!")
+
+# LÆ¯U Ã: Cháº¡y script nÃ y báº±ng Python 3.9+
