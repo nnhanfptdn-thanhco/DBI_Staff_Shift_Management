@@ -15,9 +15,9 @@ GO
 -- =========================================
 CREATE TABLE STAFF (
     UserID INT PRIMARY KEY,
-    FullName NVARCHAR(100),
+    FullName NVARCHAR(100) NOT NULL,
     Role NVARCHAR(50),
-    HourlyRate DECIMAL(10, 2)
+    HourlyRate DECIMAL(10, 2) CHECK (HourlyRate > 0) -- Constraint: Lương phải lớn hơn 0
 );
 GO
 
@@ -26,7 +26,7 @@ GO
 -- =========================================
 CREATE TABLE SHIFT (
     ShiftID INT PRIMARY KEY,
-    ShiftName NVARCHAR(50),
+    ShiftName NVARCHAR(50) NOT NULL,
     Time_Range NVARCHAR(50)
 );
 GO
@@ -39,8 +39,8 @@ CREATE TABLE SCHEDULES (
     UserID INT,
     ShiftID INT,
     PRIMARY KEY (UserID, ShiftID),
-    FOREIGN KEY (UserID) REFERENCES STAFF(UserID),
-    FOREIGN KEY (ShiftID) REFERENCES SHIFT(ShiftID)
+    FOREIGN KEY (UserID) REFERENCES STAFF(UserID) ON DELETE CASCADE,
+    FOREIGN KEY (ShiftID) REFERENCES SHIFT(ShiftID) ON DELETE CASCADE
 );
 GO
 
@@ -50,9 +50,9 @@ GO
 -- =========================================
 CREATE TABLE TIMECARD (
     TimecardID INT PRIMARY KEY,
-    WorkDate DATE,
-    CheckIn TIME,
-    CheckOut TIME,
+    WorkDate DATE NOT NULL,
+    CheckIn TIME NOT NULL,
+    CheckOut TIME NOT NULL,
     UserID INT,
     ShiftID INT,
     FOREIGN KEY (UserID) REFERENCES STAFF(UserID),
@@ -60,10 +60,6 @@ CREATE TABLE TIMECARD (
 );
 GO
 
--- Thêm constraint cho mức lương
-ALTER TABLE STAFF ADD CONSTRAINT CHK_HourlyRate CHECK (HourlyRate > 0);
-GO
-
--- Tối ưu hóa truy vấn theo ngày
+-- Tối ưu hóa truy vấn tìm kiếm ngày làm việc
 CREATE INDEX IDX_WorkDate ON TIMECARD(WorkDate);
 GO
