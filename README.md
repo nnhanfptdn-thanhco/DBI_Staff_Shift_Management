@@ -4,8 +4,11 @@ Dự án quản lý ca làm việc và chấm công của nhân viên. Được 
 
 ## Cấu trúc thư mục
 
-- `database/`: Chứa file `Staff_Shift_Management.sql` với các lệnh SQL đã được căn chỉnh đẹp mắt để tạo cơ sở dữ liệu và các bảng.
-- `Staff Shift Management/`: Thư mục project được sinh ra bởi SQL Server Management Studio (SSMS).
+- `database/`: Chứa file `01_Schema.sql` và `02_Insert_Mock_Data.sql` để tạo CSDL và thêm dữ liệu giả lập.
+- `python/`: Chứa mã nguồn Python (`process_timecards.py`) minh họa quy trình thu thập và xử lý dữ liệu.
+- `docs/`: Chứa hình ảnh ERD và các tài liệu mô hình.
+- `report/`: Chứa file mã nguồn báo cáo `main.tex` dùng cho Overleaf.
+- `Staff Shift Management/`: Thư mục project của SQL Server Management Studio (SSMS).
 
 ## Cách chạy dự án
 
