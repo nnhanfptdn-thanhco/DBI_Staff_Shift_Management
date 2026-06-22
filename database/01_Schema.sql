@@ -63,3 +63,7 @@ GO
 -- ThÃªm constraint cho má»©c lÆ°Æ¡ng
 ALTER TABLE STAFF ADD CONSTRAINT CHK_HourlyRate CHECK (HourlyRate > 0);
 GO
+
+-- Tá»‘i Æ°u hÃ³a truy váº¥n theo ngÃ y
+CREATE INDEX IDX_WorkDate ON TIMECARD(WorkDate);
+GO
