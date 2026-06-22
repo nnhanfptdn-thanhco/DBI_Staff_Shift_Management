@@ -36,3 +36,7 @@ INSERT INTO TIMECARD (TimecardID, WorkDate, CheckIn, CheckOut, UserID, ShiftID) 
 (2, '2026-06-20', '08:15:00', '16:00:00', 2, 1),
 (3, '2026-06-21', '15:50:00', '00:15:00', 3, 2);
 GO
+
+-- ThÃªm dá»¯ liá»‡u ca lÃ m Ä‘Ãªm
+INSERT INTO TIMECARD (TimecardID, WorkDate, CheckIn, CheckOut, UserID, ShiftID) VALUES (4, '2026-06-22', '22:00:00', '06:00:00', 1, 2);
+GO
