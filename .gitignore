@@ -1,0 +1,9 @@
+# SQL Server Management Studio
+*.ssmssqlproj.user
+*.bak
+.vs/
+*.user
+
+# Git
+.DS_Store
+Thumbs.db
