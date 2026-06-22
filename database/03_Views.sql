@@ -13,3 +13,9 @@ SELECT WorkDate, COUNT(TimecardID) as TotalStaff
 FROM TIMECARD
 GROUP BY WorkDate;
 GO
+
+CREATE VIEW vw_High_Rate_Staff AS
+SELECT FullName, Role, HourlyRate
+FROM STAFF
+WHERE HourlyRate >= 40;
+GO
