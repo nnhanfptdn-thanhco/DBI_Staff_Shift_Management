@@ -23,3 +23,7 @@ Dự án bao gồm các bảng:
 - **SHIFT:** Thông tin các ca làm việc.
 - **SCHEDULES:** Bảng trung gian thể hiện quan hệ M-N giữa `STAFF` và `SHIFT`.
 - **TIMECARD:** Bảng thẻ chấm công lưu trữ giờ vào, giờ ra hàng ngày.
+
+## HÆ°á»›ng dáº«n cháº¡y Python
+1. CÃ i Ä‘áº·t thÆ° viá»‡n: `pip install -r python/requirements.txt`
+2. Cháº¡y script: `python python/process_timecards.py`
