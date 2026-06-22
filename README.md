@@ -5,7 +5,7 @@ Dự án quản lý ca làm việc và chấm công của nhân viên. Được 
 ## Cấu trúc thư mục
 
 - `database/`: Chứa file `01_Schema.sql` và `02_Insert_Mock_Data.sql` để tạo CSDL và thêm dữ liệu giả lập.
-- `python/`: Chứa mã nguồn Python (`process_timecards.py`) minh họa quy trình thu thập và xử lý dữ liệu.
+- `nodejs/`: Chứa mã nguồn JavaScript (`process_timecards.js`) minh họa quy trình thu thập và xử lý dữ liệu.
 - `docs/`: Chứa hình ảnh ERD và các tài liệu mô hình.
 - `report/`: Chứa file mã nguồn báo cáo `main.tex` dùng cho Overleaf.
 - `Staff Shift Management/`: Thư mục project của SQL Server Management Studio (SSMS).
@@ -24,6 +24,6 @@ Dự án bao gồm các bảng:
 - **SCHEDULES:** Bảng trung gian thể hiện quan hệ M-N giữa `STAFF` và `SHIFT`.
 - **TIMECARD:** Bảng thẻ chấm công lưu trữ giờ vào, giờ ra hàng ngày.
 
-## HÆ°á»›ng dáº«n cháº¡y Python
-1. CÃ i Ä‘áº·t thÆ° viá»‡n: `pip install -r python/requirements.txt`
-2. Cháº¡y script: `python python/process_timecards.py`
+## Hướng dẫn chạy Node.js
+1. Cài đặt môi trường: Đảm bảo máy tính đã cài đặt [Node.js](https://nodejs.org/).
+2. Chạy script: `node nodejs/process_timecards.js`

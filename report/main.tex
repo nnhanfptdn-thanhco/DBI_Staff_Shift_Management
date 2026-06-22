@@ -16,7 +16,7 @@
 \maketitle
 
 \begin{abstract}
-Báo cáo này trình bày thiết kế và triển khai một hệ thống cơ sở dữ liệu để quản lý ca làm việc và chấm công của nhân viên. Dự án bao gồm việc phân tích yêu cầu, xây dựng Mô hình Thực thể - Liên kết (ERD), thiết kế cơ sở dữ liệu quan hệ trên SQL Server và sử dụng ngôn ngữ Python (Pandas, Numpy) để thu thập, xử lý dữ liệu.
+Báo cáo này trình bày thiết kế và triển khai một hệ thống cơ sở dữ liệu để quản lý ca làm việc và chấm công của nhân viên. Dự án bao gồm việc phân tích yêu cầu, xây dựng Mô hình Thực thể - Liên kết (ERD), thiết kế cơ sở dữ liệu quan hệ trên SQL Server và sử dụng ngôn ngữ JavaScript (Node.js) để thu thập, xử lý dữ liệu.
 \end{abstract}
 
 \tableofcontents
@@ -76,18 +76,18 @@ Tuân thủ yêu cầu học phần tuần 6, nhóm thiết lập một luồng 
 \subsection{Thu thập (Data Collection)}
 Dữ liệu thô được thu thập từ hai nguồn chính:
 \begin{itemize}
-    \item \textbf{Dữ liệu tĩnh:} Thông tin Nhân viên và Ca làm việc do bộ phận Quản lý (HR) nhập trực tiếp.
-    \item \textbf{Dữ liệu động:} Thẻ chấm công (CheckIn/CheckOut) được đồng bộ từ thiết bị máy chấm công (hoặc phần mềm nội bộ) gửi về máy chủ.
+    \item \textbf{Dữ liệu tĩnh:} Thông tin Nhân viên và Ca làm việc do bộ phận Quản lý (HR) nhập.
+    \item \textbf{Dữ liệu động:} Thẻ chấm công (CheckIn/CheckOut) được lấy từ thiết bị phần cứng.
 \end{itemize}
 
-\subsection{Xử lý dữ liệu với Python (Data Processing)}
-Nhóm sử dụng hai thư viện \texttt{Pandas} và \texttt{Numpy} của Python để thực hiện:
+\subsection{Xử lý dữ liệu với Node.js (Data Processing)}
+Nhóm sử dụng \texttt{JavaScript (Node.js)} để thực hiện:
 \begin{itemize}
-    \item \textbf{Tính toán giờ làm (TotalHours):} Xử lý các phép trừ đối tượng DateTime, đặc biệt là các ca làm qua đêm.
-    \item \textbf{Phân tích trạng thái (Status):} Sử dụng Numpy để dán nhãn "Đi trễ" hay "Đúng giờ" dựa trên mốc thời gian quy định của từng ca làm.
+    \item \textbf{Tính toán giờ làm (TotalHours):} Xử lý các phép toán thời gian cơ bản, xử lý các trường hợp ca làm qua đêm (âm giờ).
+    \item \textbf{Phân tích trạng thái (Status):} Dùng logic điều kiện (If-Else) để dán nhãn "Đi trễ" hay "Đúng giờ" dựa trên mốc thời gian quy định của từng ca làm.
 \end{itemize}
 
 \section{Kết luận (Conclusion)}
-Hệ thống \textbf{Staff Shift Management} đã đáp ứng tốt các yêu cầu cơ bản về quản trị cơ sở dữ liệu. Thông qua dự án này, nhóm đã nắm vững kiến thức về thiết kế ERD, triển khai mô hình quan hệ trên SQL Server và đặc biệt là tích hợp Python để xử lý, làm sạch dữ liệu thực tế.
+Hệ thống \textbf{Staff Shift Management} đã đáp ứng tốt các yêu cầu cơ bản về quản trị cơ sở dữ liệu. Thông qua dự án này, nhóm đã nắm vững kiến thức về thiết kế ERD, triển khai mô hình quan hệ trên SQL Server và đặc biệt là tích hợp Node.js để xử lý, làm sạch dữ liệu thực tế.
 
 \end{document}
