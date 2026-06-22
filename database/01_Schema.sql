@@ -59,3 +59,7 @@ CREATE TABLE TIMECARD (
     FOREIGN KEY (ShiftID) REFERENCES SHIFT(ShiftID)
 );
 GO
+
+-- ThÃªm constraint cho má»©c lÆ°Æ¡ng
+ALTER TABLE STAFF ADD CONSTRAINT CHK_HourlyRate CHECK (HourlyRate > 0);
+GO
