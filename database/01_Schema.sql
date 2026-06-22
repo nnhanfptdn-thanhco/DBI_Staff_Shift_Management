@@ -60,10 +60,10 @@ CREATE TABLE TIMECARD (
 );
 GO
 
--- ThÃªm constraint cho má»©c lÆ°Æ¡ng
+-- Thêm constraint cho mức lương
 ALTER TABLE STAFF ADD CONSTRAINT CHK_HourlyRate CHECK (HourlyRate > 0);
 GO
 
--- Tá»‘i Æ°u hÃ³a truy váº¥n theo ngÃ y
+-- Tối ưu hóa truy vấn theo ngày
 CREATE INDEX IDX_WorkDate ON TIMECARD(WorkDate);
 GO
