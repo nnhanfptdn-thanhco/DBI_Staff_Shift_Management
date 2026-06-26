@@ -213,6 +213,15 @@ function renderShifts() {
     }).join('');
 }
 
+function formatVietnameseHours(totalHours) {
+    const hours = Math.floor(totalHours);
+    const minutes = Math.round((totalHours - hours) * 60);
+    if (minutes === 0) {
+        return `${hours} giờ`;
+    }
+    return `${hours} giờ ${minutes} phút`;
+}
+
 function renderTimecards() {
     const tbody = document.getElementById('timecards-table-body');
     
@@ -233,8 +242,10 @@ function renderTimecards() {
 
     tbody.innerHTML = processed.map(r => {
         const badgeStatus = r.status === 'On Time' 
-            ? `<span class="badge badge-success">On Time</span>`
-            : `<span class="badge badge-danger">Late</span>`;
+            ? `<span class="badge badge-success">Đúng giờ</span>`
+            : `<span class="badge badge-danger">Đi muộn</span>`;
+
+        const timeFormatted = formatVietnameseHours(r.totalHours);
 
         return `
             <tr>
@@ -244,7 +255,7 @@ function renderTimecards() {
                 <td><span class="badge badge-outline">${r.shift ? r.shift.ShiftName : 'Unknown'}</span></td>
                 <td><code>${r.CheckIn}</code></td>
                 <td><code>${r.CheckOut}</code></td>
-                <td><strong>${r.totalHours} hrs</strong></td>
+                <td><strong>${timeFormatted}</strong></td>
                 <td>${badgeStatus}</td>
                 <td><strong class="text-amber">$${r.estWage.toFixed(2)}</strong></td>
             </tr>
