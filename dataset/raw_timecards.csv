@@ -1,10 +1,1051 @@
 TimecardID,WorkDate,StaffName,ShiftName,CheckIn,CheckOut,Notes
-1,2026-06-20,Nguyễn Văn A,Ca Sáng,07:55:00,16:05:00,Bình thường
-2,2026-06-20,Trần Thị B,Ca Sáng,08:15:00,16:00:00,Đi muộn do kẹt xe
-3,2026-06-21,Lê Văn C,Ca Chiều,15:50:00,00:15:00,Ca vắt đêm
-4,2026-06-22,Nguyễn Văn A,Ca Chiều,22:00:00,06:00:00,Trực đêm
-5,2026-06-23,Trần Thị B,Ca Sáng,08:00:00,NaN,Quên bấm giờ ra
-6,2026-06-23,Lê Văn C,Ca Chiều,NaN,23:55:00,Máy chấm công lỗi mất checkin
-7,2026-06-24,Nguyễn Văn A,Ca Sáng,07:50:00,16:00:00,Bình thường
-8,2026-06-24,Trần Thị B,Ca Sáng,07:55:00,16:05:00,Dữ liệu bị trùng lặp (Duplicate)
-8,2026-06-24,Trần Thị B,Ca Sáng,07:55:00,16:05:00,Dữ liệu bị trùng lặp (Duplicate)
+1001,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1002,2026-06-12,Lý Văn Oai,Ca Sáng,07:56:00,16:06:00,Bình thường
+1003,2026-06-13,Mai Thị Phúc,Ca Chiều,15:53:00,00:02:00,Ca chiều vắt đêm
+1004,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1005,2026-06-15,Nguyễn Văn An,Ca Sáng,07:54:00,16:07:00,Đi muộn nhẹ
+1006,2026-06-16,Trần Thị Bình,Ca Chiều,15:52:00,00:12:00,Ca chiều vắt đêm
+1007,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1008,2026-06-18,Phạm Thị Dung,Ca Sáng,07:55:00,16:04:00,Bình thường
+1009,2026-06-19,Hoàng Văn Em,Ca Chiều,15:50:00,00:13:00,Ca chiều vắt đêm
+1010,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1011,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:47:00,16:02:00,Bình thường
+1012,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:52:00,00:13:00,Ca chiều vắt đêm
+1013,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1014,2026-06-24,Hồ Thị Linh,Ca Sáng,07:45:00,16:00:00,Bình thường
+1015,2026-06-25,Ngô Văn Minh,Ca Chiều,15:58:00,00:10:00,Ca chiều vắt đêm
+1016,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1017,2026-06-27,Lý Văn Oai,Ca Sáng,07:49:00,16:02:00,Bình thường
+1018,2026-06-28,Mai Thị Phúc,Ca Chiều,15:53:00,00:02:00,Ca chiều vắt đêm
+1019,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1020,2026-05-31,Nguyễn Văn An,Ca Sáng,07:51:00,16:06:00,Đi muộn nhẹ
+1021,2026-06-01,Trần Thị Bình,Ca Chiều,15:53:00,00:00:00,Ca chiều vắt đêm
+1022,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1023,2026-06-03,Phạm Thị Dung,Ca Sáng,07:55:00,16:02:00,Bình thường
+1024,2026-06-04,Hoàng Văn Em,Ca Chiều,15:51:00,00:11:00,Ca chiều vắt đêm
+1025,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1026,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:52:00,16:06:00,Bình thường
+1027,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:55:00,00:10:00,Ca chiều vắt đêm
+1028,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1029,2026-06-09,Hồ Thị Linh,Ca Sáng,07:48:00,16:05:00,Bình thường
+1030,2026-06-10,Ngô Văn Minh,Ca Chiều,15:59:00,00:10:00,Ca chiều vắt đêm
+1031,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1032,2026-06-12,Lý Văn Oai,Ca Sáng,07:53:00,16:06:00,Bình thường
+1033,2026-06-13,Mai Thị Phúc,Ca Chiều,15:54:00,00:15:00,Ca chiều vắt đêm
+1034,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1035,2026-06-15,Nguyễn Văn An,Ca Sáng,07:57:00,16:10:00,Đi muộn nhẹ
+1036,2026-06-16,Trần Thị Bình,Ca Chiều,15:51:00,00:13:00,Ca chiều vắt đêm
+1037,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1038,2026-06-18,Phạm Thị Dung,Ca Sáng,07:47:00,16:02:00,Bình thường
+1039,2026-06-19,Hoàng Văn Em,Ca Chiều,15:57:00,00:11:00,Ca chiều vắt đêm
+1040,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1041,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:47:00,16:05:00,Bình thường
+1042,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:51:00,00:10:00,Ca chiều vắt đêm
+1043,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1044,2026-06-24,Hồ Thị Linh,Ca Sáng,07:47:00,16:06:00,Bình thường
+1045,2026-06-25,Ngô Văn Minh,Ca Chiều,15:56:00,00:07:00,Ca chiều vắt đêm
+1046,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1047,2026-06-27,Lý Văn Oai,Ca Sáng,07:55:00,16:07:00,Bình thường
+1048,2026-06-28,Mai Thị Phúc,Ca Chiều,15:56:00,00:07:00,Ca chiều vắt đêm
+1049,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1050,2026-05-31,Nguyễn Văn An,Ca Sáng,07:59:00,,Quên bấm giờ ra (Missing value)
+1051,2026-06-01,Trần Thị Bình,Ca Chiều,15:58:00,00:11:00,Ca chiều vắt đêm
+1052,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1053,2026-06-03,Phạm Thị Dung,Ca Sáng,07:58:00,16:01:00,Bình thường
+1054,2026-06-04,Hoàng Văn Em,Ca Chiều,15:56:00,00:06:00,Ca chiều vắt đêm
+1055,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1056,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:54:00,16:08:00,Bình thường
+1057,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:54:00,00:14:00,Ca chiều vắt đêm
+1058,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1059,2026-06-09,Hồ Thị Linh,Ca Sáng,07:45:00,16:06:00,Bình thường
+1060,2026-06-10,Ngô Văn Minh,Ca Chiều,15:54:00,00:14:00,Ca chiều vắt đêm
+1061,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1062,2026-06-12,Lý Văn Oai,Ca Sáng,07:45:00,16:04:00,Bình thường
+1063,2026-06-13,Mai Thị Phúc,Ca Chiều,15:54:00,00:11:00,Ca chiều vắt đêm
+1064,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1065,2026-06-15,Nguyễn Văn An,Ca Sáng,07:48:00,16:01:00,Đi muộn nhẹ
+1066,2026-06-16,Trần Thị Bình,Ca Chiều,15:54:00,00:13:00,Ca chiều vắt đêm
+1067,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1068,2026-06-18,Phạm Thị Dung,Ca Sáng,07:58:00,16:07:00,Bình thường
+1069,2026-06-19,Hoàng Văn Em,Ca Chiều,15:51:00,00:08:00,Ca chiều vắt đêm
+1070,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1071,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:51:00,16:05:00,Bình thường
+1072,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:56:00,00:01:00,Ca chiều vắt đêm
+1073,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1074,2026-06-24,Hồ Thị Linh,Ca Sáng,07:51:00,16:04:00,Bình thường
+1075,2026-06-25,Ngô Văn Minh,Ca Chiều,15:59:00,00:09:00,Ca chiều vắt đêm
+1076,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1077,2026-06-27,Lý Văn Oai,Ca Sáng,07:46:00,16:05:00,Bình thường
+1078,2026-06-28,Mai Thị Phúc,Ca Chiều,15:55:00,00:12:00,Ca chiều vắt đêm
+1079,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1080,2026-05-31,Nguyễn Văn An,Ca Sáng,07:49:00,16:09:00,Đi muộn nhẹ
+1081,2026-06-01,Trần Thị Bình,Ca Chiều,15:52:00,00:08:00,Ca chiều vắt đêm
+1082,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1083,2026-06-03,Phạm Thị Dung,Ca Sáng,07:49:00,16:08:00,Bình thường
+1084,2026-06-04,Hoàng Văn Em,Ca Chiều,15:56:00,00:11:00,Ca chiều vắt đêm
+1085,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1086,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:52:00,16:01:00,Bình thường
+1087,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:57:00,00:00:00,Ca chiều vắt đêm
+1088,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1089,2026-06-09,Hồ Thị Linh,Ca Sáng,07:57:00,16:06:00,Bình thường
+1090,2026-06-10,Ngô Văn Minh,Ca Chiều,15:55:00,00:06:00,Ca chiều vắt đêm
+1091,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1092,2026-06-12,Lý Văn Oai,Ca Sáng,07:50:00,16:02:00,Bình thường
+1093,2026-06-13,Mai Thị Phúc,Ca Chiều,15:57:00,00:06:00,Ca chiều vắt đêm
+1094,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1095,2026-06-15,Nguyễn Văn An,Ca Sáng,07:56:00,16:07:00,Đi muộn nhẹ
+1096,2026-06-16,Trần Thị Bình,Ca Chiều,15:56:00,00:09:00,Ca chiều vắt đêm
+1097,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1098,2026-06-18,Phạm Thị Dung,Ca Sáng,07:58:00,16:10:00,Bình thường
+1099,2026-06-19,Hoàng Văn Em,Ca Chiều,15:56:00,00:15:00,Ca chiều vắt đêm
+1100,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,,Quên bấm giờ ra (Missing value)
+1101,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:56:00,16:05:00,Bình thường
+1102,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:59:00,00:06:00,Ca chiều vắt đêm
+1103,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1104,2026-06-24,Hồ Thị Linh,Ca Sáng,07:50:00,16:05:00,Bình thường
+1105,2026-06-25,Ngô Văn Minh,Ca Chiều,15:57:00,00:00:00,Ca chiều vắt đêm
+1106,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1107,2026-06-27,Lý Văn Oai,Ca Sáng,07:52:00,16:05:00,Bình thường
+1108,2026-06-28,Mai Thị Phúc,Ca Chiều,15:59:00,00:04:00,Ca chiều vắt đêm
+1109,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1110,2026-05-31,Nguyễn Văn An,Ca Sáng,07:58:00,16:03:00,Đi muộn nhẹ
+1111,2026-06-01,Trần Thị Bình,Ca Chiều,15:58:00,00:01:00,Ca chiều vắt đêm
+1112,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1113,2026-06-03,Phạm Thị Dung,Ca Sáng,07:53:00,16:07:00,Bình thường
+1114,2026-06-04,Hoàng Văn Em,Ca Chiều,15:59:00,00:07:00,Ca chiều vắt đêm
+1115,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1116,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:51:00,16:04:00,Bình thường
+1117,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:52:00,00:02:00,Ca chiều vắt đêm
+1118,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1119,2026-06-09,Hồ Thị Linh,Ca Sáng,07:54:00,16:05:00,Bình thường
+1120,2026-06-10,Ngô Văn Minh,Ca Chiều,15:57:00,00:08:00,Ca chiều vắt đêm
+1121,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1122,2026-06-12,Lý Văn Oai,Ca Sáng,07:50:00,16:07:00,Bình thường
+1123,2026-06-13,Mai Thị Phúc,Ca Chiều,15:57:00,00:03:00,Ca chiều vắt đêm
+1124,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1125,2026-06-15,Nguyễn Văn An,Ca Sáng,07:46:00,16:09:00,Đi muộn nhẹ
+1126,2026-06-16,Trần Thị Bình,Ca Chiều,15:55:00,00:04:00,Ca chiều vắt đêm
+1127,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1128,2026-06-18,Phạm Thị Dung,Ca Sáng,07:57:00,16:00:00,Bình thường
+1129,2026-06-19,Hoàng Văn Em,Ca Chiều,15:58:00,00:00:00,Ca chiều vắt đêm
+1130,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1131,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:46:00,16:09:00,Bình thường
+1132,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:55:00,00:01:00,Ca chiều vắt đêm
+1133,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1134,2026-06-24,Hồ Thị Linh,Ca Sáng,07:57:00,16:03:00,Bình thường
+1135,2026-06-25,Ngô Văn Minh,Ca Chiều,15:56:00,00:00:00,Ca chiều vắt đêm
+1136,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1137,2026-06-27,Lý Văn Oai,Ca Sáng,07:53:00,16:04:00,Bình thường
+1138,2026-06-28,Mai Thị Phúc,Ca Chiều,15:55:00,00:06:00,Ca chiều vắt đêm
+1139,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1140,2026-05-31,Nguyễn Văn An,Ca Sáng,07:48:00,16:01:00,Đi muộn nhẹ
+1141,2026-06-01,Trần Thị Bình,Ca Chiều,15:52:00,00:15:00,Ca chiều vắt đêm
+1142,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1143,2026-06-03,Phạm Thị Dung,Ca Sáng,07:50:00,16:00:00,Bình thường
+1144,2026-06-04,Hoàng Văn Em,Ca Chiều,15:59:00,00:11:00,Ca chiều vắt đêm
+1145,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1146,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:57:00,16:09:00,Bình thường
+1147,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:50:00,00:15:00,Ca chiều vắt đêm
+1148,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1149,2026-06-09,Hồ Thị Linh,Ca Sáng,07:46:00,16:06:00,Bình thường
+1150,2026-06-10,Ngô Văn Minh,Ca Chiều,15:52:00,,Quên bấm giờ ra (Missing value)
+1151,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1152,2026-06-12,Lý Văn Oai,Ca Sáng,07:48:00,16:04:00,Bình thường
+1153,2026-06-13,Mai Thị Phúc,Ca Chiều,15:53:00,00:14:00,Ca chiều vắt đêm
+1154,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1155,2026-06-15,Nguyễn Văn An,Ca Sáng,07:48:00,16:03:00,Đi muộn nhẹ
+1156,2026-06-16,Trần Thị Bình,Ca Chiều,15:59:00,00:14:00,Ca chiều vắt đêm
+1157,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1158,2026-06-18,Phạm Thị Dung,Ca Sáng,07:49:00,16:09:00,Bình thường
+1159,2026-06-19,Hoàng Văn Em,Ca Chiều,15:52:00,00:04:00,Ca chiều vắt đêm
+1160,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1161,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:56:00,16:00:00,Bình thường
+1162,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:53:00,00:15:00,Ca chiều vắt đêm
+1163,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1164,2026-06-24,Hồ Thị Linh,Ca Sáng,07:50:00,16:06:00,Bình thường
+1165,2026-06-25,Ngô Văn Minh,Ca Chiều,15:51:00,00:03:00,Ca chiều vắt đêm
+1166,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1167,2026-06-27,Lý Văn Oai,Ca Sáng,07:53:00,16:05:00,Bình thường
+1168,2026-06-28,Mai Thị Phúc,Ca Chiều,15:51:00,00:01:00,Ca chiều vắt đêm
+1169,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1170,2026-05-31,Nguyễn Văn An,Ca Sáng,07:56:00,16:01:00,Đi muộn nhẹ
+1171,2026-06-01,Trần Thị Bình,Ca Chiều,15:59:00,00:04:00,Ca chiều vắt đêm
+1172,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1173,2026-06-03,Phạm Thị Dung,Ca Sáng,07:48:00,16:07:00,Bình thường
+1174,2026-06-04,Hoàng Văn Em,Ca Chiều,15:52:00,00:03:00,Ca chiều vắt đêm
+1175,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1176,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:45:00,16:02:00,Bình thường
+1177,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:52:00,00:06:00,Ca chiều vắt đêm
+1178,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1179,2026-06-09,Hồ Thị Linh,Ca Sáng,07:47:00,16:01:00,Bình thường
+1180,2026-06-10,Ngô Văn Minh,Ca Chiều,15:50:00,00:12:00,Ca chiều vắt đêm
+1181,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1182,2026-06-12,Lý Văn Oai,Ca Sáng,07:58:00,16:10:00,Bình thường
+1183,2026-06-13,Mai Thị Phúc,Ca Chiều,15:52:00,00:01:00,Ca chiều vắt đêm
+1184,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1185,2026-06-15,Nguyễn Văn An,Ca Sáng,07:46:00,16:02:00,Đi muộn nhẹ
+1186,2026-06-16,Trần Thị Bình,Ca Chiều,15:52:00,00:14:00,Ca chiều vắt đêm
+1187,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1188,2026-06-18,Phạm Thị Dung,Ca Sáng,07:54:00,16:08:00,Bình thường
+1189,2026-06-19,Hoàng Văn Em,Ca Chiều,15:58:00,00:15:00,Ca chiều vắt đêm
+1190,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1191,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:58:00,16:02:00,Bình thường
+1192,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:57:00,00:01:00,Ca chiều vắt đêm
+1193,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1194,2026-06-24,Hồ Thị Linh,Ca Sáng,07:52:00,16:09:00,Bình thường
+1195,2026-06-25,Ngô Văn Minh,Ca Chiều,15:50:00,00:14:00,Ca chiều vắt đêm
+1196,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1197,2026-06-27,Lý Văn Oai,Ca Sáng,07:56:00,16:02:00,Bình thường
+1198,2026-06-28,Mai Thị Phúc,Ca Chiều,15:58:00,00:11:00,Ca chiều vắt đêm
+1199,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1200,2026-05-31,Nguyễn Văn An,Ca Sáng,07:54:00,,Quên bấm giờ ra (Missing value)
+1201,2026-06-01,Trần Thị Bình,Ca Chiều,15:52:00,00:09:00,Ca chiều vắt đêm
+1202,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1203,2026-06-03,Phạm Thị Dung,Ca Sáng,07:55:00,16:10:00,Bình thường
+1204,2026-06-04,Hoàng Văn Em,Ca Chiều,15:50:00,00:02:00,Ca chiều vắt đêm
+1205,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1206,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:50:00,16:03:00,Bình thường
+1207,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:50:00,00:14:00,Ca chiều vắt đêm
+1208,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1209,2026-06-09,Hồ Thị Linh,Ca Sáng,07:46:00,16:05:00,Bình thường
+1210,2026-06-10,Ngô Văn Minh,Ca Chiều,15:50:00,00:01:00,Ca chiều vắt đêm
+1211,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1212,2026-06-12,Lý Văn Oai,Ca Sáng,07:45:00,16:07:00,Bình thường
+1213,2026-06-13,Mai Thị Phúc,Ca Chiều,15:50:00,00:12:00,Ca chiều vắt đêm
+1214,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1215,2026-06-15,Nguyễn Văn An,Ca Sáng,07:50:00,16:09:00,Đi muộn nhẹ
+1216,2026-06-16,Trần Thị Bình,Ca Chiều,15:50:00,00:14:00,Ca chiều vắt đêm
+1217,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1218,2026-06-18,Phạm Thị Dung,Ca Sáng,07:53:00,16:10:00,Bình thường
+1219,2026-06-19,Hoàng Văn Em,Ca Chiều,15:56:00,00:03:00,Ca chiều vắt đêm
+1220,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1221,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:48:00,16:09:00,Bình thường
+1222,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:53:00,00:12:00,Ca chiều vắt đêm
+1223,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1224,2026-06-24,Hồ Thị Linh,Ca Sáng,07:45:00,16:09:00,Bình thường
+1225,2026-06-25,Ngô Văn Minh,Ca Chiều,15:59:00,00:06:00,Ca chiều vắt đêm
+1226,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1227,2026-06-27,Lý Văn Oai,Ca Sáng,07:55:00,16:06:00,Bình thường
+1228,2026-06-28,Mai Thị Phúc,Ca Chiều,15:59:00,00:09:00,Ca chiều vắt đêm
+1229,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1230,2026-05-31,Nguyễn Văn An,Ca Sáng,07:54:00,16:01:00,Đi muộn nhẹ
+1231,2026-06-01,Trần Thị Bình,Ca Chiều,15:52:00,00:14:00,Ca chiều vắt đêm
+1232,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1233,2026-06-03,Phạm Thị Dung,Ca Sáng,07:51:00,16:08:00,Bình thường
+1234,2026-06-04,Hoàng Văn Em,Ca Chiều,15:57:00,00:01:00,Ca chiều vắt đêm
+1235,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1236,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:57:00,16:03:00,Bình thường
+1237,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:59:00,00:12:00,Ca chiều vắt đêm
+1238,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1239,2026-06-09,Hồ Thị Linh,Ca Sáng,07:57:00,16:00:00,Bình thường
+1240,2026-06-10,Ngô Văn Minh,Ca Chiều,15:52:00,00:07:00,Ca chiều vắt đêm
+1241,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1242,2026-06-12,Lý Văn Oai,Ca Sáng,07:57:00,16:01:00,Bình thường
+1243,2026-06-13,Mai Thị Phúc,Ca Chiều,15:59:00,00:03:00,Ca chiều vắt đêm
+1244,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1245,2026-06-15,Nguyễn Văn An,Ca Sáng,07:57:00,16:10:00,Đi muộn nhẹ
+1246,2026-06-16,Trần Thị Bình,Ca Chiều,15:55:00,00:06:00,Ca chiều vắt đêm
+1247,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1248,2026-06-18,Phạm Thị Dung,Ca Sáng,07:59:00,16:04:00,Bình thường
+1249,2026-06-19,Hoàng Văn Em,Ca Chiều,15:51:00,00:02:00,Ca chiều vắt đêm
+1250,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,,Quên bấm giờ ra (Missing value)
+1251,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:48:00,16:09:00,Bình thường
+1252,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:56:00,00:06:00,Ca chiều vắt đêm
+1253,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1254,2026-06-24,Hồ Thị Linh,Ca Sáng,07:59:00,16:10:00,Bình thường
+1255,2026-06-25,Ngô Văn Minh,Ca Chiều,15:57:00,00:15:00,Ca chiều vắt đêm
+1256,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1257,2026-06-27,Lý Văn Oai,Ca Sáng,07:53:00,16:01:00,Bình thường
+1258,2026-06-28,Mai Thị Phúc,Ca Chiều,15:58:00,00:07:00,Ca chiều vắt đêm
+1259,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1260,2026-05-31,Nguyễn Văn An,Ca Sáng,07:47:00,16:08:00,Đi muộn nhẹ
+1261,2026-06-01,Trần Thị Bình,Ca Chiều,15:51:00,00:13:00,Ca chiều vắt đêm
+1262,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1263,2026-06-03,Phạm Thị Dung,Ca Sáng,07:58:00,16:06:00,Bình thường
+1264,2026-06-04,Hoàng Văn Em,Ca Chiều,15:59:00,00:15:00,Ca chiều vắt đêm
+1265,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1266,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:50:00,16:08:00,Bình thường
+1267,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:59:00,00:01:00,Ca chiều vắt đêm
+1268,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1269,2026-06-09,Hồ Thị Linh,Ca Sáng,07:51:00,16:05:00,Bình thường
+1270,2026-06-10,Ngô Văn Minh,Ca Chiều,15:52:00,00:05:00,Ca chiều vắt đêm
+1271,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1272,2026-06-12,Lý Văn Oai,Ca Sáng,07:46:00,16:02:00,Bình thường
+1273,2026-06-13,Mai Thị Phúc,Ca Chiều,15:54:00,00:00:00,Ca chiều vắt đêm
+1274,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1275,2026-06-15,Nguyễn Văn An,Ca Sáng,07:51:00,16:06:00,Đi muộn nhẹ
+1276,2026-06-16,Trần Thị Bình,Ca Chiều,15:58:00,00:03:00,Ca chiều vắt đêm
+1277,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1278,2026-06-18,Phạm Thị Dung,Ca Sáng,07:46:00,16:09:00,Bình thường
+1279,2026-06-19,Hoàng Văn Em,Ca Chiều,15:56:00,00:02:00,Ca chiều vắt đêm
+1280,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1281,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:50:00,16:10:00,Bình thường
+1282,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:50:00,00:07:00,Ca chiều vắt đêm
+1283,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1284,2026-06-24,Hồ Thị Linh,Ca Sáng,07:48:00,16:06:00,Bình thường
+1285,2026-06-25,Ngô Văn Minh,Ca Chiều,15:54:00,00:15:00,Ca chiều vắt đêm
+1286,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1287,2026-06-27,Lý Văn Oai,Ca Sáng,07:46:00,16:03:00,Bình thường
+1288,2026-06-28,Mai Thị Phúc,Ca Chiều,15:56:00,00:09:00,Ca chiều vắt đêm
+1289,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1290,2026-05-31,Nguyễn Văn An,Ca Sáng,07:51:00,16:02:00,Đi muộn nhẹ
+1291,2026-06-01,Trần Thị Bình,Ca Chiều,15:57:00,00:05:00,Ca chiều vắt đêm
+1292,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1293,2026-06-03,Phạm Thị Dung,Ca Sáng,07:45:00,16:07:00,Bình thường
+1294,2026-06-04,Hoàng Văn Em,Ca Chiều,15:59:00,00:14:00,Ca chiều vắt đêm
+1295,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1296,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:50:00,16:09:00,Bình thường
+1297,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:53:00,00:10:00,Ca chiều vắt đêm
+1298,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1299,2026-06-09,Hồ Thị Linh,Ca Sáng,07:52:00,16:03:00,Bình thường
+1300,2026-06-10,Ngô Văn Minh,Ca Chiều,15:52:00,,Quên bấm giờ ra (Missing value)
+1301,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1302,2026-06-12,Lý Văn Oai,Ca Sáng,07:48:00,16:06:00,Bình thường
+1303,2026-06-13,Mai Thị Phúc,Ca Chiều,15:56:00,00:01:00,Ca chiều vắt đêm
+1304,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1305,2026-06-15,Nguyễn Văn An,Ca Sáng,07:56:00,16:00:00,Đi muộn nhẹ
+1306,2026-06-16,Trần Thị Bình,Ca Chiều,15:57:00,00:13:00,Ca chiều vắt đêm
+1307,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1308,2026-06-18,Phạm Thị Dung,Ca Sáng,07:53:00,16:00:00,Bình thường
+1309,2026-06-19,Hoàng Văn Em,Ca Chiều,15:50:00,00:03:00,Ca chiều vắt đêm
+1310,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1311,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:48:00,16:09:00,Bình thường
+1312,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:52:00,00:08:00,Ca chiều vắt đêm
+1313,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1314,2026-06-24,Hồ Thị Linh,Ca Sáng,07:59:00,16:05:00,Bình thường
+1315,2026-06-25,Ngô Văn Minh,Ca Chiều,15:56:00,00:12:00,Ca chiều vắt đêm
+1316,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1317,2026-06-27,Lý Văn Oai,Ca Sáng,07:53:00,16:03:00,Bình thường
+1318,2026-06-28,Mai Thị Phúc,Ca Chiều,15:52:00,00:14:00,Ca chiều vắt đêm
+1319,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1320,2026-05-31,Nguyễn Văn An,Ca Sáng,07:48:00,16:01:00,Đi muộn nhẹ
+1321,2026-06-01,Trần Thị Bình,Ca Chiều,15:50:00,00:02:00,Ca chiều vắt đêm
+1322,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1323,2026-06-03,Phạm Thị Dung,Ca Sáng,07:49:00,16:08:00,Bình thường
+1324,2026-06-04,Hoàng Văn Em,Ca Chiều,15:58:00,00:11:00,Ca chiều vắt đêm
+1325,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1326,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:53:00,16:07:00,Bình thường
+1327,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:55:00,00:12:00,Ca chiều vắt đêm
+1328,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1329,2026-06-09,Hồ Thị Linh,Ca Sáng,07:54:00,16:05:00,Bình thường
+1330,2026-06-10,Ngô Văn Minh,Ca Chiều,15:51:00,00:14:00,Ca chiều vắt đêm
+1331,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1332,2026-06-12,Lý Văn Oai,Ca Sáng,07:58:00,16:10:00,Bình thường
+1333,2026-06-13,Mai Thị Phúc,Ca Chiều,15:58:00,00:09:00,Ca chiều vắt đêm
+1334,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1335,2026-06-15,Nguyễn Văn An,Ca Sáng,07:49:00,16:02:00,Đi muộn nhẹ
+1336,2026-06-16,Trần Thị Bình,Ca Chiều,15:59:00,00:14:00,Ca chiều vắt đêm
+1337,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1338,2026-06-18,Phạm Thị Dung,Ca Sáng,07:48:00,16:03:00,Bình thường
+1339,2026-06-19,Hoàng Văn Em,Ca Chiều,15:51:00,00:13:00,Ca chiều vắt đêm
+1340,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1341,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:59:00,16:05:00,Bình thường
+1342,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:52:00,00:12:00,Ca chiều vắt đêm
+1343,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1344,2026-06-24,Hồ Thị Linh,Ca Sáng,07:45:00,16:01:00,Bình thường
+1345,2026-06-25,Ngô Văn Minh,Ca Chiều,15:55:00,00:11:00,Ca chiều vắt đêm
+1346,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1347,2026-06-27,Lý Văn Oai,Ca Sáng,07:47:00,16:00:00,Bình thường
+1348,2026-06-28,Mai Thị Phúc,Ca Chiều,15:55:00,00:09:00,Ca chiều vắt đêm
+1349,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1350,2026-05-31,Nguyễn Văn An,Ca Sáng,07:47:00,,Quên bấm giờ ra (Missing value)
+1351,2026-06-01,Trần Thị Bình,Ca Chiều,15:53:00,00:07:00,Ca chiều vắt đêm
+1352,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1353,2026-06-03,Phạm Thị Dung,Ca Sáng,07:45:00,16:00:00,Bình thường
+1354,2026-06-04,Hoàng Văn Em,Ca Chiều,15:54:00,00:09:00,Ca chiều vắt đêm
+1355,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1356,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:50:00,16:04:00,Bình thường
+1357,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:52:00,00:15:00,Ca chiều vắt đêm
+1358,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1359,2026-06-09,Hồ Thị Linh,Ca Sáng,07:45:00,16:08:00,Bình thường
+1360,2026-06-10,Ngô Văn Minh,Ca Chiều,15:59:00,00:10:00,Ca chiều vắt đêm
+1361,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1362,2026-06-12,Lý Văn Oai,Ca Sáng,07:49:00,16:07:00,Bình thường
+1363,2026-06-13,Mai Thị Phúc,Ca Chiều,15:57:00,00:08:00,Ca chiều vắt đêm
+1364,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1365,2026-06-15,Nguyễn Văn An,Ca Sáng,07:54:00,16:02:00,Đi muộn nhẹ
+1366,2026-06-16,Trần Thị Bình,Ca Chiều,15:50:00,00:00:00,Ca chiều vắt đêm
+1367,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1368,2026-06-18,Phạm Thị Dung,Ca Sáng,07:55:00,16:01:00,Bình thường
+1369,2026-06-19,Hoàng Văn Em,Ca Chiều,15:58:00,00:12:00,Ca chiều vắt đêm
+1370,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1371,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:54:00,16:07:00,Bình thường
+1372,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:54:00,00:06:00,Ca chiều vắt đêm
+1373,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1374,2026-06-24,Hồ Thị Linh,Ca Sáng,07:57:00,16:00:00,Bình thường
+1375,2026-06-25,Ngô Văn Minh,Ca Chiều,15:55:00,00:08:00,Ca chiều vắt đêm
+1376,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1377,2026-06-27,Lý Văn Oai,Ca Sáng,07:48:00,16:10:00,Bình thường
+1378,2026-06-28,Mai Thị Phúc,Ca Chiều,15:54:00,00:15:00,Ca chiều vắt đêm
+1379,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1380,2026-05-31,Nguyễn Văn An,Ca Sáng,07:57:00,16:05:00,Đi muộn nhẹ
+1381,2026-06-01,Trần Thị Bình,Ca Chiều,15:50:00,00:08:00,Ca chiều vắt đêm
+1382,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1383,2026-06-03,Phạm Thị Dung,Ca Sáng,07:58:00,16:00:00,Bình thường
+1384,2026-06-04,Hoàng Văn Em,Ca Chiều,15:55:00,00:07:00,Ca chiều vắt đêm
+1385,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1386,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:58:00,16:09:00,Bình thường
+1387,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:50:00,00:01:00,Ca chiều vắt đêm
+1388,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1389,2026-06-09,Hồ Thị Linh,Ca Sáng,07:46:00,16:10:00,Bình thường
+1390,2026-06-10,Ngô Văn Minh,Ca Chiều,15:51:00,00:02:00,Ca chiều vắt đêm
+1391,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1392,2026-06-12,Lý Văn Oai,Ca Sáng,07:49:00,16:02:00,Bình thường
+1393,2026-06-13,Mai Thị Phúc,Ca Chiều,15:54:00,00:12:00,Ca chiều vắt đêm
+1394,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1395,2026-06-15,Nguyễn Văn An,Ca Sáng,07:57:00,16:05:00,Đi muộn nhẹ
+1396,2026-06-16,Trần Thị Bình,Ca Chiều,15:53:00,00:01:00,Ca chiều vắt đêm
+1397,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1398,2026-06-18,Phạm Thị Dung,Ca Sáng,07:52:00,16:07:00,Bình thường
+1399,2026-06-19,Hoàng Văn Em,Ca Chiều,15:50:00,00:07:00,Ca chiều vắt đêm
+1400,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,,Quên bấm giờ ra (Missing value)
+1401,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:53:00,16:07:00,Bình thường
+1402,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:54:00,00:12:00,Ca chiều vắt đêm
+1403,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1404,2026-06-24,Hồ Thị Linh,Ca Sáng,07:57:00,16:07:00,Bình thường
+1405,2026-06-25,Ngô Văn Minh,Ca Chiều,15:57:00,00:13:00,Ca chiều vắt đêm
+1406,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1407,2026-06-27,Lý Văn Oai,Ca Sáng,07:46:00,16:01:00,Bình thường
+1408,2026-06-28,Mai Thị Phúc,Ca Chiều,15:53:00,00:05:00,Ca chiều vắt đêm
+1409,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1410,2026-05-31,Nguyễn Văn An,Ca Sáng,07:52:00,16:02:00,Đi muộn nhẹ
+1411,2026-06-01,Trần Thị Bình,Ca Chiều,15:55:00,00:10:00,Ca chiều vắt đêm
+1412,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1413,2026-06-03,Phạm Thị Dung,Ca Sáng,07:57:00,16:02:00,Bình thường
+1414,2026-06-04,Hoàng Văn Em,Ca Chiều,15:52:00,00:05:00,Ca chiều vắt đêm
+1415,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1416,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:58:00,16:02:00,Bình thường
+1417,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:58:00,00:14:00,Ca chiều vắt đêm
+1418,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1419,2026-06-09,Hồ Thị Linh,Ca Sáng,07:51:00,16:03:00,Bình thường
+1420,2026-06-10,Ngô Văn Minh,Ca Chiều,15:53:00,00:01:00,Ca chiều vắt đêm
+1421,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1422,2026-06-12,Lý Văn Oai,Ca Sáng,07:50:00,16:03:00,Bình thường
+1423,2026-06-13,Mai Thị Phúc,Ca Chiều,15:51:00,00:01:00,Ca chiều vắt đêm
+1424,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1425,2026-06-15,Nguyễn Văn An,Ca Sáng,07:53:00,16:09:00,Đi muộn nhẹ
+1426,2026-06-16,Trần Thị Bình,Ca Chiều,15:52:00,00:01:00,Ca chiều vắt đêm
+1427,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1428,2026-06-18,Phạm Thị Dung,Ca Sáng,07:49:00,16:00:00,Bình thường
+1429,2026-06-19,Hoàng Văn Em,Ca Chiều,15:58:00,00:04:00,Ca chiều vắt đêm
+1430,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1431,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:59:00,16:04:00,Bình thường
+1432,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:53:00,00:13:00,Ca chiều vắt đêm
+1433,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1434,2026-06-24,Hồ Thị Linh,Ca Sáng,07:51:00,16:07:00,Bình thường
+1435,2026-06-25,Ngô Văn Minh,Ca Chiều,15:55:00,00:01:00,Ca chiều vắt đêm
+1436,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1437,2026-06-27,Lý Văn Oai,Ca Sáng,07:52:00,16:00:00,Bình thường
+1438,2026-06-28,Mai Thị Phúc,Ca Chiều,15:56:00,00:15:00,Ca chiều vắt đêm
+1439,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1440,2026-05-31,Nguyễn Văn An,Ca Sáng,07:53:00,16:07:00,Đi muộn nhẹ
+1441,2026-06-01,Trần Thị Bình,Ca Chiều,15:59:00,00:03:00,Ca chiều vắt đêm
+1442,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1443,2026-06-03,Phạm Thị Dung,Ca Sáng,07:46:00,16:02:00,Bình thường
+1444,2026-06-04,Hoàng Văn Em,Ca Chiều,15:50:00,00:08:00,Ca chiều vắt đêm
+1445,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1446,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:47:00,16:03:00,Bình thường
+1447,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:53:00,00:08:00,Ca chiều vắt đêm
+1448,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1449,2026-06-09,Hồ Thị Linh,Ca Sáng,07:50:00,16:05:00,Bình thường
+1450,2026-06-10,Ngô Văn Minh,Ca Chiều,15:53:00,,Quên bấm giờ ra (Missing value)
+1451,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1452,2026-06-12,Lý Văn Oai,Ca Sáng,07:54:00,16:06:00,Bình thường
+1453,2026-06-13,Mai Thị Phúc,Ca Chiều,15:59:00,00:14:00,Ca chiều vắt đêm
+1454,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1455,2026-06-15,Nguyễn Văn An,Ca Sáng,07:47:00,16:01:00,Đi muộn nhẹ
+1456,2026-06-16,Trần Thị Bình,Ca Chiều,15:51:00,00:13:00,Ca chiều vắt đêm
+1457,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1458,2026-06-18,Phạm Thị Dung,Ca Sáng,07:54:00,16:05:00,Bình thường
+1459,2026-06-19,Hoàng Văn Em,Ca Chiều,15:55:00,00:00:00,Ca chiều vắt đêm
+1460,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1461,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:59:00,16:02:00,Bình thường
+1462,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:53:00,00:00:00,Ca chiều vắt đêm
+1463,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1464,2026-06-24,Hồ Thị Linh,Ca Sáng,07:51:00,16:06:00,Bình thường
+1465,2026-06-25,Ngô Văn Minh,Ca Chiều,15:53:00,00:08:00,Ca chiều vắt đêm
+1466,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1467,2026-06-27,Lý Văn Oai,Ca Sáng,07:50:00,16:00:00,Bình thường
+1468,2026-06-28,Mai Thị Phúc,Ca Chiều,15:59:00,00:08:00,Ca chiều vắt đêm
+1469,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1470,2026-05-31,Nguyễn Văn An,Ca Sáng,07:59:00,16:09:00,Đi muộn nhẹ
+1471,2026-06-01,Trần Thị Bình,Ca Chiều,15:50:00,00:02:00,Ca chiều vắt đêm
+1472,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1473,2026-06-03,Phạm Thị Dung,Ca Sáng,07:53:00,16:05:00,Bình thường
+1474,2026-06-04,Hoàng Văn Em,Ca Chiều,15:57:00,00:13:00,Ca chiều vắt đêm
+1475,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1476,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:59:00,16:03:00,Bình thường
+1477,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:53:00,00:08:00,Ca chiều vắt đêm
+1478,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1479,2026-06-09,Hồ Thị Linh,Ca Sáng,07:50:00,16:06:00,Bình thường
+1480,2026-06-10,Ngô Văn Minh,Ca Chiều,15:58:00,00:09:00,Ca chiều vắt đêm
+1481,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1482,2026-06-12,Lý Văn Oai,Ca Sáng,07:45:00,16:03:00,Bình thường
+1483,2026-06-13,Mai Thị Phúc,Ca Chiều,15:54:00,00:03:00,Ca chiều vắt đêm
+1484,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1485,2026-06-15,Nguyễn Văn An,Ca Sáng,07:51:00,16:10:00,Đi muộn nhẹ
+1486,2026-06-16,Trần Thị Bình,Ca Chiều,15:54:00,00:15:00,Ca chiều vắt đêm
+1487,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1488,2026-06-18,Phạm Thị Dung,Ca Sáng,07:56:00,16:08:00,Bình thường
+1489,2026-06-19,Hoàng Văn Em,Ca Chiều,15:58:00,00:03:00,Ca chiều vắt đêm
+1490,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1491,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:55:00,16:10:00,Bình thường
+1492,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:51:00,00:14:00,Ca chiều vắt đêm
+1493,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1494,2026-06-24,Hồ Thị Linh,Ca Sáng,07:54:00,16:09:00,Bình thường
+1495,2026-06-25,Ngô Văn Minh,Ca Chiều,15:51:00,00:11:00,Ca chiều vắt đêm
+1496,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1497,2026-06-27,Lý Văn Oai,Ca Sáng,07:57:00,16:07:00,Bình thường
+1498,2026-06-28,Mai Thị Phúc,Ca Chiều,15:57:00,00:00:00,Ca chiều vắt đêm
+1499,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1500,2026-05-31,Nguyễn Văn An,Ca Sáng,07:52:00,,Quên bấm giờ ra (Missing value)
+1501,2026-06-01,Trần Thị Bình,Ca Chiều,15:58:00,00:00:00,Ca chiều vắt đêm
+1502,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1503,2026-06-03,Phạm Thị Dung,Ca Sáng,07:51:00,16:07:00,Bình thường
+1504,2026-06-04,Hoàng Văn Em,Ca Chiều,15:55:00,00:06:00,Ca chiều vắt đêm
+1505,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1506,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:47:00,16:01:00,Bình thường
+1507,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:51:00,00:08:00,Ca chiều vắt đêm
+1508,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1509,2026-06-09,Hồ Thị Linh,Ca Sáng,07:55:00,16:07:00,Bình thường
+1510,2026-06-10,Ngô Văn Minh,Ca Chiều,15:58:00,00:09:00,Ca chiều vắt đêm
+1511,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1512,2026-06-12,Lý Văn Oai,Ca Sáng,07:48:00,16:06:00,Bình thường
+1513,2026-06-13,Mai Thị Phúc,Ca Chiều,15:50:00,00:08:00,Ca chiều vắt đêm
+1514,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1515,2026-06-15,Nguyễn Văn An,Ca Sáng,07:53:00,16:07:00,Đi muộn nhẹ
+1516,2026-06-16,Trần Thị Bình,Ca Chiều,15:52:00,00:01:00,Ca chiều vắt đêm
+1517,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1518,2026-06-18,Phạm Thị Dung,Ca Sáng,07:48:00,16:01:00,Bình thường
+1519,2026-06-19,Hoàng Văn Em,Ca Chiều,15:59:00,00:14:00,Ca chiều vắt đêm
+1520,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1521,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:54:00,16:05:00,Bình thường
+1522,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:57:00,00:10:00,Ca chiều vắt đêm
+1523,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1524,2026-06-24,Hồ Thị Linh,Ca Sáng,07:51:00,16:07:00,Bình thường
+1525,2026-06-25,Ngô Văn Minh,Ca Chiều,15:55:00,00:04:00,Ca chiều vắt đêm
+1526,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1527,2026-06-27,Lý Văn Oai,Ca Sáng,07:53:00,16:00:00,Bình thường
+1528,2026-06-28,Mai Thị Phúc,Ca Chiều,15:57:00,00:02:00,Ca chiều vắt đêm
+1529,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1530,2026-05-31,Nguyễn Văn An,Ca Sáng,07:48:00,16:07:00,Đi muộn nhẹ
+1531,2026-06-01,Trần Thị Bình,Ca Chiều,15:58:00,00:11:00,Ca chiều vắt đêm
+1532,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1533,2026-06-03,Phạm Thị Dung,Ca Sáng,07:52:00,16:10:00,Bình thường
+1534,2026-06-04,Hoàng Văn Em,Ca Chiều,15:56:00,00:13:00,Ca chiều vắt đêm
+1535,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1536,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:47:00,16:07:00,Bình thường
+1537,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:57:00,00:02:00,Ca chiều vắt đêm
+1538,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1539,2026-06-09,Hồ Thị Linh,Ca Sáng,07:48:00,16:03:00,Bình thường
+1540,2026-06-10,Ngô Văn Minh,Ca Chiều,15:50:00,00:05:00,Ca chiều vắt đêm
+1541,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1542,2026-06-12,Lý Văn Oai,Ca Sáng,07:55:00,16:00:00,Bình thường
+1543,2026-06-13,Mai Thị Phúc,Ca Chiều,15:52:00,00:15:00,Ca chiều vắt đêm
+1544,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1545,2026-06-15,Nguyễn Văn An,Ca Sáng,07:50:00,16:08:00,Đi muộn nhẹ
+1546,2026-06-16,Trần Thị Bình,Ca Chiều,15:50:00,00:15:00,Ca chiều vắt đêm
+1547,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1548,2026-06-18,Phạm Thị Dung,Ca Sáng,07:47:00,16:00:00,Bình thường
+1549,2026-06-19,Hoàng Văn Em,Ca Chiều,15:51:00,00:12:00,Ca chiều vắt đêm
+1550,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,,Quên bấm giờ ra (Missing value)
+1551,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:47:00,16:03:00,Bình thường
+1552,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:56:00,00:10:00,Ca chiều vắt đêm
+1553,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1554,2026-06-24,Hồ Thị Linh,Ca Sáng,07:59:00,16:10:00,Bình thường
+1555,2026-06-25,Ngô Văn Minh,Ca Chiều,15:53:00,00:07:00,Ca chiều vắt đêm
+1556,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1557,2026-06-27,Lý Văn Oai,Ca Sáng,07:59:00,16:10:00,Bình thường
+1558,2026-06-28,Mai Thị Phúc,Ca Chiều,15:51:00,00:13:00,Ca chiều vắt đêm
+1559,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1560,2026-05-31,Nguyễn Văn An,Ca Sáng,07:58:00,16:00:00,Đi muộn nhẹ
+1561,2026-06-01,Trần Thị Bình,Ca Chiều,15:53:00,00:11:00,Ca chiều vắt đêm
+1562,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1563,2026-06-03,Phạm Thị Dung,Ca Sáng,07:53:00,16:09:00,Bình thường
+1564,2026-06-04,Hoàng Văn Em,Ca Chiều,15:51:00,00:12:00,Ca chiều vắt đêm
+1565,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1566,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:57:00,16:01:00,Bình thường
+1567,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:52:00,00:05:00,Ca chiều vắt đêm
+1568,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1569,2026-06-09,Hồ Thị Linh,Ca Sáng,07:46:00,16:09:00,Bình thường
+1570,2026-06-10,Ngô Văn Minh,Ca Chiều,15:56:00,00:11:00,Ca chiều vắt đêm
+1571,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1572,2026-06-12,Lý Văn Oai,Ca Sáng,07:47:00,16:04:00,Bình thường
+1573,2026-06-13,Mai Thị Phúc,Ca Chiều,15:52:00,00:04:00,Ca chiều vắt đêm
+1574,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1575,2026-06-15,Nguyễn Văn An,Ca Sáng,07:54:00,16:05:00,Đi muộn nhẹ
+1576,2026-06-16,Trần Thị Bình,Ca Chiều,15:55:00,00:11:00,Ca chiều vắt đêm
+1577,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1578,2026-06-18,Phạm Thị Dung,Ca Sáng,07:48:00,16:08:00,Bình thường
+1579,2026-06-19,Hoàng Văn Em,Ca Chiều,15:54:00,00:06:00,Ca chiều vắt đêm
+1580,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1581,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:50:00,16:06:00,Bình thường
+1582,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:56:00,00:15:00,Ca chiều vắt đêm
+1583,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1584,2026-06-24,Hồ Thị Linh,Ca Sáng,07:53:00,16:08:00,Bình thường
+1585,2026-06-25,Ngô Văn Minh,Ca Chiều,15:50:00,00:09:00,Ca chiều vắt đêm
+1586,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1587,2026-06-27,Lý Văn Oai,Ca Sáng,07:47:00,16:03:00,Bình thường
+1588,2026-06-28,Mai Thị Phúc,Ca Chiều,15:50:00,00:08:00,Ca chiều vắt đêm
+1589,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1590,2026-05-31,Nguyễn Văn An,Ca Sáng,07:51:00,16:09:00,Đi muộn nhẹ
+1591,2026-06-01,Trần Thị Bình,Ca Chiều,15:53:00,00:11:00,Ca chiều vắt đêm
+1592,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1593,2026-06-03,Phạm Thị Dung,Ca Sáng,07:55:00,16:07:00,Bình thường
+1594,2026-06-04,Hoàng Văn Em,Ca Chiều,15:50:00,00:10:00,Ca chiều vắt đêm
+1595,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1596,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:51:00,16:04:00,Bình thường
+1597,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:56:00,00:09:00,Ca chiều vắt đêm
+1598,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1599,2026-06-09,Hồ Thị Linh,Ca Sáng,07:56:00,16:04:00,Bình thường
+1600,2026-06-10,Ngô Văn Minh,Ca Chiều,15:52:00,,Quên bấm giờ ra (Missing value)
+1601,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1602,2026-06-12,Lý Văn Oai,Ca Sáng,07:51:00,16:06:00,Bình thường
+1603,2026-06-13,Mai Thị Phúc,Ca Chiều,15:58:00,00:13:00,Ca chiều vắt đêm
+1604,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1605,2026-06-15,Nguyễn Văn An,Ca Sáng,07:53:00,16:10:00,Đi muộn nhẹ
+1606,2026-06-16,Trần Thị Bình,Ca Chiều,15:58:00,00:05:00,Ca chiều vắt đêm
+1607,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1608,2026-06-18,Phạm Thị Dung,Ca Sáng,07:57:00,16:09:00,Bình thường
+1609,2026-06-19,Hoàng Văn Em,Ca Chiều,15:55:00,00:06:00,Ca chiều vắt đêm
+1610,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1611,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:51:00,16:04:00,Bình thường
+1612,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:52:00,00:13:00,Ca chiều vắt đêm
+1613,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1614,2026-06-24,Hồ Thị Linh,Ca Sáng,07:53:00,16:08:00,Bình thường
+1615,2026-06-25,Ngô Văn Minh,Ca Chiều,15:50:00,00:01:00,Ca chiều vắt đêm
+1616,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1617,2026-06-27,Lý Văn Oai,Ca Sáng,07:54:00,16:08:00,Bình thường
+1618,2026-06-28,Mai Thị Phúc,Ca Chiều,15:54:00,00:05:00,Ca chiều vắt đêm
+1619,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1620,2026-05-31,Nguyễn Văn An,Ca Sáng,07:51:00,16:08:00,Đi muộn nhẹ
+1621,2026-06-01,Trần Thị Bình,Ca Chiều,15:50:00,00:09:00,Ca chiều vắt đêm
+1622,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1623,2026-06-03,Phạm Thị Dung,Ca Sáng,07:48:00,16:07:00,Bình thường
+1624,2026-06-04,Hoàng Văn Em,Ca Chiều,15:53:00,00:04:00,Ca chiều vắt đêm
+1625,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1626,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:50:00,16:03:00,Bình thường
+1627,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:51:00,00:08:00,Ca chiều vắt đêm
+1628,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1629,2026-06-09,Hồ Thị Linh,Ca Sáng,07:54:00,16:01:00,Bình thường
+1630,2026-06-10,Ngô Văn Minh,Ca Chiều,15:56:00,00:09:00,Ca chiều vắt đêm
+1631,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1632,2026-06-12,Lý Văn Oai,Ca Sáng,07:55:00,16:04:00,Bình thường
+1633,2026-06-13,Mai Thị Phúc,Ca Chiều,15:57:00,00:08:00,Ca chiều vắt đêm
+1634,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1635,2026-06-15,Nguyễn Văn An,Ca Sáng,07:49:00,16:04:00,Đi muộn nhẹ
+1636,2026-06-16,Trần Thị Bình,Ca Chiều,15:59:00,00:14:00,Ca chiều vắt đêm
+1637,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1638,2026-06-18,Phạm Thị Dung,Ca Sáng,07:47:00,16:01:00,Bình thường
+1639,2026-06-19,Hoàng Văn Em,Ca Chiều,15:56:00,00:00:00,Ca chiều vắt đêm
+1640,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1641,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:48:00,16:01:00,Bình thường
+1642,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:56:00,00:15:00,Ca chiều vắt đêm
+1643,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1644,2026-06-24,Hồ Thị Linh,Ca Sáng,07:55:00,16:04:00,Bình thường
+1645,2026-06-25,Ngô Văn Minh,Ca Chiều,15:59:00,00:03:00,Ca chiều vắt đêm
+1646,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1647,2026-06-27,Lý Văn Oai,Ca Sáng,07:45:00,16:00:00,Bình thường
+1648,2026-06-28,Mai Thị Phúc,Ca Chiều,15:56:00,00:05:00,Ca chiều vắt đêm
+1649,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1650,2026-05-31,Nguyễn Văn An,Ca Sáng,07:55:00,,Quên bấm giờ ra (Missing value)
+1651,2026-06-01,Trần Thị Bình,Ca Chiều,15:50:00,00:13:00,Ca chiều vắt đêm
+1652,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1653,2026-06-03,Phạm Thị Dung,Ca Sáng,07:55:00,16:10:00,Bình thường
+1654,2026-06-04,Hoàng Văn Em,Ca Chiều,15:58:00,00:12:00,Ca chiều vắt đêm
+1655,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1656,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:57:00,16:06:00,Bình thường
+1657,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:58:00,00:11:00,Ca chiều vắt đêm
+1658,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1659,2026-06-09,Hồ Thị Linh,Ca Sáng,07:45:00,16:10:00,Bình thường
+1660,2026-06-10,Ngô Văn Minh,Ca Chiều,15:53:00,00:00:00,Ca chiều vắt đêm
+1661,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1662,2026-06-12,Lý Văn Oai,Ca Sáng,07:57:00,16:07:00,Bình thường
+1663,2026-06-13,Mai Thị Phúc,Ca Chiều,15:52:00,00:10:00,Ca chiều vắt đêm
+1664,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1665,2026-06-15,Nguyễn Văn An,Ca Sáng,07:47:00,16:06:00,Đi muộn nhẹ
+1666,2026-06-16,Trần Thị Bình,Ca Chiều,15:59:00,00:12:00,Ca chiều vắt đêm
+1667,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1668,2026-06-18,Phạm Thị Dung,Ca Sáng,07:57:00,16:00:00,Bình thường
+1669,2026-06-19,Hoàng Văn Em,Ca Chiều,15:57:00,00:00:00,Ca chiều vắt đêm
+1670,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1671,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:49:00,16:08:00,Bình thường
+1672,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:59:00,00:02:00,Ca chiều vắt đêm
+1673,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1674,2026-06-24,Hồ Thị Linh,Ca Sáng,07:56:00,16:01:00,Bình thường
+1675,2026-06-25,Ngô Văn Minh,Ca Chiều,15:59:00,00:15:00,Ca chiều vắt đêm
+1676,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1677,2026-06-27,Lý Văn Oai,Ca Sáng,07:50:00,16:10:00,Bình thường
+1678,2026-06-28,Mai Thị Phúc,Ca Chiều,15:53:00,00:04:00,Ca chiều vắt đêm
+1679,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1680,2026-05-31,Nguyễn Văn An,Ca Sáng,07:46:00,16:02:00,Đi muộn nhẹ
+1681,2026-06-01,Trần Thị Bình,Ca Chiều,15:58:00,00:14:00,Ca chiều vắt đêm
+1682,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1683,2026-06-03,Phạm Thị Dung,Ca Sáng,07:46:00,16:03:00,Bình thường
+1684,2026-06-04,Hoàng Văn Em,Ca Chiều,15:52:00,00:02:00,Ca chiều vắt đêm
+1685,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1686,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:51:00,16:05:00,Bình thường
+1687,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:55:00,00:07:00,Ca chiều vắt đêm
+1688,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1689,2026-06-09,Hồ Thị Linh,Ca Sáng,07:46:00,16:05:00,Bình thường
+1690,2026-06-10,Ngô Văn Minh,Ca Chiều,15:59:00,00:07:00,Ca chiều vắt đêm
+1691,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1692,2026-06-12,Lý Văn Oai,Ca Sáng,07:57:00,16:02:00,Bình thường
+1693,2026-06-13,Mai Thị Phúc,Ca Chiều,15:57:00,00:13:00,Ca chiều vắt đêm
+1694,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1695,2026-06-15,Nguyễn Văn An,Ca Sáng,07:47:00,16:05:00,Đi muộn nhẹ
+1696,2026-06-16,Trần Thị Bình,Ca Chiều,15:59:00,00:13:00,Ca chiều vắt đêm
+1697,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1698,2026-06-18,Phạm Thị Dung,Ca Sáng,07:52:00,16:05:00,Bình thường
+1699,2026-06-19,Hoàng Văn Em,Ca Chiều,15:51:00,00:03:00,Ca chiều vắt đêm
+1700,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,,Quên bấm giờ ra (Missing value)
+1701,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:52:00,16:04:00,Bình thường
+1702,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:53:00,00:12:00,Ca chiều vắt đêm
+1703,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1704,2026-06-24,Hồ Thị Linh,Ca Sáng,07:47:00,16:05:00,Bình thường
+1705,2026-06-25,Ngô Văn Minh,Ca Chiều,15:52:00,00:02:00,Ca chiều vắt đêm
+1706,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1707,2026-06-27,Lý Văn Oai,Ca Sáng,07:49:00,16:00:00,Bình thường
+1708,2026-06-28,Mai Thị Phúc,Ca Chiều,15:58:00,00:03:00,Ca chiều vắt đêm
+1709,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1710,2026-05-31,Nguyễn Văn An,Ca Sáng,07:46:00,16:05:00,Đi muộn nhẹ
+1711,2026-06-01,Trần Thị Bình,Ca Chiều,15:51:00,00:11:00,Ca chiều vắt đêm
+1712,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1713,2026-06-03,Phạm Thị Dung,Ca Sáng,07:47:00,16:02:00,Bình thường
+1714,2026-06-04,Hoàng Văn Em,Ca Chiều,15:50:00,00:11:00,Ca chiều vắt đêm
+1715,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1716,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:45:00,16:01:00,Bình thường
+1717,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:51:00,00:00:00,Ca chiều vắt đêm
+1718,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1719,2026-06-09,Hồ Thị Linh,Ca Sáng,07:46:00,16:09:00,Bình thường
+1720,2026-06-10,Ngô Văn Minh,Ca Chiều,15:51:00,00:05:00,Ca chiều vắt đêm
+1721,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1722,2026-06-12,Lý Văn Oai,Ca Sáng,07:49:00,16:00:00,Bình thường
+1723,2026-06-13,Mai Thị Phúc,Ca Chiều,15:59:00,00:07:00,Ca chiều vắt đêm
+1724,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1725,2026-06-15,Nguyễn Văn An,Ca Sáng,07:45:00,16:10:00,Đi muộn nhẹ
+1726,2026-06-16,Trần Thị Bình,Ca Chiều,15:57:00,00:12:00,Ca chiều vắt đêm
+1727,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1728,2026-06-18,Phạm Thị Dung,Ca Sáng,07:59:00,16:04:00,Bình thường
+1729,2026-06-19,Hoàng Văn Em,Ca Chiều,15:59:00,00:04:00,Ca chiều vắt đêm
+1730,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1731,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:52:00,16:00:00,Bình thường
+1732,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:59:00,00:11:00,Ca chiều vắt đêm
+1733,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1734,2026-06-24,Hồ Thị Linh,Ca Sáng,07:52:00,16:05:00,Bình thường
+1735,2026-06-25,Ngô Văn Minh,Ca Chiều,15:53:00,00:14:00,Ca chiều vắt đêm
+1736,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1737,2026-06-27,Lý Văn Oai,Ca Sáng,07:49:00,16:10:00,Bình thường
+1738,2026-06-28,Mai Thị Phúc,Ca Chiều,15:50:00,00:13:00,Ca chiều vắt đêm
+1739,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1740,2026-05-31,Nguyễn Văn An,Ca Sáng,07:48:00,16:00:00,Đi muộn nhẹ
+1741,2026-06-01,Trần Thị Bình,Ca Chiều,15:52:00,00:04:00,Ca chiều vắt đêm
+1742,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1743,2026-06-03,Phạm Thị Dung,Ca Sáng,07:53:00,16:05:00,Bình thường
+1744,2026-06-04,Hoàng Văn Em,Ca Chiều,15:54:00,00:07:00,Ca chiều vắt đêm
+1745,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1746,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:56:00,16:05:00,Bình thường
+1747,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:57:00,00:03:00,Ca chiều vắt đêm
+1748,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1749,2026-06-09,Hồ Thị Linh,Ca Sáng,07:48:00,16:09:00,Bình thường
+1750,2026-06-10,Ngô Văn Minh,Ca Chiều,15:54:00,,Quên bấm giờ ra (Missing value)
+1751,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1752,2026-06-12,Lý Văn Oai,Ca Sáng,07:52:00,16:06:00,Bình thường
+1753,2026-06-13,Mai Thị Phúc,Ca Chiều,15:59:00,00:06:00,Ca chiều vắt đêm
+1754,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1755,2026-06-15,Nguyễn Văn An,Ca Sáng,07:51:00,16:08:00,Đi muộn nhẹ
+1756,2026-06-16,Trần Thị Bình,Ca Chiều,15:59:00,00:14:00,Ca chiều vắt đêm
+1757,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1758,2026-06-18,Phạm Thị Dung,Ca Sáng,07:58:00,16:08:00,Bình thường
+1759,2026-06-19,Hoàng Văn Em,Ca Chiều,15:53:00,00:03:00,Ca chiều vắt đêm
+1760,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1761,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:53:00,16:09:00,Bình thường
+1762,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:54:00,00:05:00,Ca chiều vắt đêm
+1763,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1764,2026-06-24,Hồ Thị Linh,Ca Sáng,07:50:00,16:07:00,Bình thường
+1765,2026-06-25,Ngô Văn Minh,Ca Chiều,15:55:00,00:05:00,Ca chiều vắt đêm
+1766,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1767,2026-06-27,Lý Văn Oai,Ca Sáng,07:59:00,16:00:00,Bình thường
+1768,2026-06-28,Mai Thị Phúc,Ca Chiều,15:51:00,00:11:00,Ca chiều vắt đêm
+1769,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1770,2026-05-31,Nguyễn Văn An,Ca Sáng,07:47:00,16:03:00,Đi muộn nhẹ
+1771,2026-06-01,Trần Thị Bình,Ca Chiều,15:58:00,00:03:00,Ca chiều vắt đêm
+1772,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1773,2026-06-03,Phạm Thị Dung,Ca Sáng,07:54:00,16:05:00,Bình thường
+1774,2026-06-04,Hoàng Văn Em,Ca Chiều,15:51:00,00:01:00,Ca chiều vắt đêm
+1775,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1776,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:50:00,16:08:00,Bình thường
+1777,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:52:00,00:09:00,Ca chiều vắt đêm
+1778,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1779,2026-06-09,Hồ Thị Linh,Ca Sáng,07:56:00,16:01:00,Bình thường
+1780,2026-06-10,Ngô Văn Minh,Ca Chiều,15:53:00,00:06:00,Ca chiều vắt đêm
+1781,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1782,2026-06-12,Lý Văn Oai,Ca Sáng,07:46:00,16:07:00,Bình thường
+1783,2026-06-13,Mai Thị Phúc,Ca Chiều,15:58:00,00:10:00,Ca chiều vắt đêm
+1784,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1785,2026-06-15,Nguyễn Văn An,Ca Sáng,07:52:00,16:06:00,Đi muộn nhẹ
+1786,2026-06-16,Trần Thị Bình,Ca Chiều,15:53:00,00:02:00,Ca chiều vắt đêm
+1787,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1788,2026-06-18,Phạm Thị Dung,Ca Sáng,07:45:00,16:08:00,Bình thường
+1789,2026-06-19,Hoàng Văn Em,Ca Chiều,15:53:00,00:01:00,Ca chiều vắt đêm
+1790,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1791,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:49:00,16:09:00,Bình thường
+1792,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:51:00,00:03:00,Ca chiều vắt đêm
+1793,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1794,2026-06-24,Hồ Thị Linh,Ca Sáng,07:49:00,16:07:00,Bình thường
+1795,2026-06-25,Ngô Văn Minh,Ca Chiều,15:52:00,00:13:00,Ca chiều vắt đêm
+1796,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1797,2026-06-27,Lý Văn Oai,Ca Sáng,07:47:00,16:01:00,Bình thường
+1798,2026-06-28,Mai Thị Phúc,Ca Chiều,15:50:00,00:15:00,Ca chiều vắt đêm
+1799,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1800,2026-05-31,Nguyễn Văn An,Ca Sáng,07:55:00,,Quên bấm giờ ra (Missing value)
+1801,2026-06-01,Trần Thị Bình,Ca Chiều,15:54:00,00:03:00,Ca chiều vắt đêm
+1802,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1803,2026-06-03,Phạm Thị Dung,Ca Sáng,07:53:00,16:07:00,Bình thường
+1804,2026-06-04,Hoàng Văn Em,Ca Chiều,15:52:00,00:00:00,Ca chiều vắt đêm
+1805,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1806,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:55:00,16:03:00,Bình thường
+1807,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:58:00,00:04:00,Ca chiều vắt đêm
+1808,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1809,2026-06-09,Hồ Thị Linh,Ca Sáng,07:48:00,16:05:00,Bình thường
+1810,2026-06-10,Ngô Văn Minh,Ca Chiều,15:58:00,00:02:00,Ca chiều vắt đêm
+1811,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1812,2026-06-12,Lý Văn Oai,Ca Sáng,07:59:00,16:08:00,Bình thường
+1813,2026-06-13,Mai Thị Phúc,Ca Chiều,15:58:00,00:00:00,Ca chiều vắt đêm
+1814,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1815,2026-06-15,Nguyễn Văn An,Ca Sáng,07:45:00,16:01:00,Đi muộn nhẹ
+1816,2026-06-16,Trần Thị Bình,Ca Chiều,15:55:00,00:12:00,Ca chiều vắt đêm
+1817,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1818,2026-06-18,Phạm Thị Dung,Ca Sáng,07:55:00,16:00:00,Bình thường
+1819,2026-06-19,Hoàng Văn Em,Ca Chiều,15:52:00,00:09:00,Ca chiều vắt đêm
+1820,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1821,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:48:00,16:09:00,Bình thường
+1822,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:55:00,00:01:00,Ca chiều vắt đêm
+1823,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1824,2026-06-24,Hồ Thị Linh,Ca Sáng,07:54:00,16:07:00,Bình thường
+1825,2026-06-25,Ngô Văn Minh,Ca Chiều,15:52:00,00:08:00,Ca chiều vắt đêm
+1826,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1827,2026-06-27,Lý Văn Oai,Ca Sáng,07:50:00,16:04:00,Bình thường
+1828,2026-06-28,Mai Thị Phúc,Ca Chiều,15:54:00,00:05:00,Ca chiều vắt đêm
+1829,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1830,2026-05-31,Nguyễn Văn An,Ca Sáng,07:54:00,16:10:00,Đi muộn nhẹ
+1831,2026-06-01,Trần Thị Bình,Ca Chiều,15:55:00,00:06:00,Ca chiều vắt đêm
+1832,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1833,2026-06-03,Phạm Thị Dung,Ca Sáng,07:58:00,16:08:00,Bình thường
+1834,2026-06-04,Hoàng Văn Em,Ca Chiều,15:54:00,00:14:00,Ca chiều vắt đêm
+1835,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1836,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:57:00,16:07:00,Bình thường
+1837,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:58:00,00:08:00,Ca chiều vắt đêm
+1838,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1839,2026-06-09,Hồ Thị Linh,Ca Sáng,07:50:00,16:04:00,Bình thường
+1840,2026-06-10,Ngô Văn Minh,Ca Chiều,15:53:00,00:11:00,Ca chiều vắt đêm
+1841,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1842,2026-06-12,Lý Văn Oai,Ca Sáng,07:45:00,16:06:00,Bình thường
+1843,2026-06-13,Mai Thị Phúc,Ca Chiều,15:58:00,00:07:00,Ca chiều vắt đêm
+1844,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1845,2026-06-15,Nguyễn Văn An,Ca Sáng,07:51:00,16:02:00,Đi muộn nhẹ
+1846,2026-06-16,Trần Thị Bình,Ca Chiều,15:50:00,00:03:00,Ca chiều vắt đêm
+1847,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1848,2026-06-18,Phạm Thị Dung,Ca Sáng,07:49:00,16:05:00,Bình thường
+1849,2026-06-19,Hoàng Văn Em,Ca Chiều,15:51:00,00:04:00,Ca chiều vắt đêm
+1850,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,,Quên bấm giờ ra (Missing value)
+1851,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:46:00,16:02:00,Bình thường
+1852,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:53:00,00:15:00,Ca chiều vắt đêm
+1853,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1854,2026-06-24,Hồ Thị Linh,Ca Sáng,07:45:00,16:02:00,Bình thường
+1855,2026-06-25,Ngô Văn Minh,Ca Chiều,15:54:00,00:10:00,Ca chiều vắt đêm
+1856,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1857,2026-06-27,Lý Văn Oai,Ca Sáng,07:50:00,16:03:00,Bình thường
+1858,2026-06-28,Mai Thị Phúc,Ca Chiều,15:57:00,00:15:00,Ca chiều vắt đêm
+1859,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1860,2026-05-31,Nguyễn Văn An,Ca Sáng,07:59:00,16:02:00,Đi muộn nhẹ
+1861,2026-06-01,Trần Thị Bình,Ca Chiều,15:56:00,00:14:00,Ca chiều vắt đêm
+1862,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1863,2026-06-03,Phạm Thị Dung,Ca Sáng,07:49:00,16:08:00,Bình thường
+1864,2026-06-04,Hoàng Văn Em,Ca Chiều,15:52:00,00:08:00,Ca chiều vắt đêm
+1865,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1866,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:56:00,16:00:00,Bình thường
+1867,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:50:00,00:00:00,Ca chiều vắt đêm
+1868,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1869,2026-06-09,Hồ Thị Linh,Ca Sáng,07:46:00,16:06:00,Bình thường
+1870,2026-06-10,Ngô Văn Minh,Ca Chiều,15:56:00,00:01:00,Ca chiều vắt đêm
+1871,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1872,2026-06-12,Lý Văn Oai,Ca Sáng,07:59:00,16:01:00,Bình thường
+1873,2026-06-13,Mai Thị Phúc,Ca Chiều,15:51:00,00:14:00,Ca chiều vắt đêm
+1874,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1875,2026-06-15,Nguyễn Văn An,Ca Sáng,07:45:00,16:07:00,Đi muộn nhẹ
+1876,2026-06-16,Trần Thị Bình,Ca Chiều,15:50:00,00:07:00,Ca chiều vắt đêm
+1877,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1878,2026-06-18,Phạm Thị Dung,Ca Sáng,07:51:00,16:05:00,Bình thường
+1879,2026-06-19,Hoàng Văn Em,Ca Chiều,15:58:00,00:00:00,Ca chiều vắt đêm
+1880,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1881,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:55:00,16:04:00,Bình thường
+1882,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:50:00,00:04:00,Ca chiều vắt đêm
+1883,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1884,2026-06-24,Hồ Thị Linh,Ca Sáng,07:46:00,16:10:00,Bình thường
+1885,2026-06-25,Ngô Văn Minh,Ca Chiều,15:52:00,00:13:00,Ca chiều vắt đêm
+1886,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1887,2026-06-27,Lý Văn Oai,Ca Sáng,07:55:00,16:10:00,Bình thường
+1888,2026-06-28,Mai Thị Phúc,Ca Chiều,15:59:00,00:11:00,Ca chiều vắt đêm
+1889,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1890,2026-05-31,Nguyễn Văn An,Ca Sáng,07:52:00,16:06:00,Đi muộn nhẹ
+1891,2026-06-01,Trần Thị Bình,Ca Chiều,15:59:00,00:00:00,Ca chiều vắt đêm
+1892,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1893,2026-06-03,Phạm Thị Dung,Ca Sáng,07:57:00,16:05:00,Bình thường
+1894,2026-06-04,Hoàng Văn Em,Ca Chiều,15:52:00,00:03:00,Ca chiều vắt đêm
+1895,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1896,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:51:00,16:08:00,Bình thường
+1897,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:56:00,00:03:00,Ca chiều vắt đêm
+1898,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1899,2026-06-09,Hồ Thị Linh,Ca Sáng,07:48:00,16:10:00,Bình thường
+1900,2026-06-10,Ngô Văn Minh,Ca Chiều,15:55:00,,Quên bấm giờ ra (Missing value)
+1901,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1902,2026-06-12,Lý Văn Oai,Ca Sáng,07:53:00,16:01:00,Bình thường
+1903,2026-06-13,Mai Thị Phúc,Ca Chiều,15:57:00,00:05:00,Ca chiều vắt đêm
+1904,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1905,2026-06-15,Nguyễn Văn An,Ca Sáng,07:59:00,16:06:00,Đi muộn nhẹ
+1906,2026-06-16,Trần Thị Bình,Ca Chiều,15:58:00,00:05:00,Ca chiều vắt đêm
+1907,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1908,2026-06-18,Phạm Thị Dung,Ca Sáng,07:56:00,16:02:00,Bình thường
+1909,2026-06-19,Hoàng Văn Em,Ca Chiều,15:57:00,00:00:00,Ca chiều vắt đêm
+1910,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1911,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:57:00,16:04:00,Bình thường
+1912,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:56:00,00:08:00,Ca chiều vắt đêm
+1913,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1914,2026-06-24,Hồ Thị Linh,Ca Sáng,07:56:00,16:10:00,Bình thường
+1915,2026-06-25,Ngô Văn Minh,Ca Chiều,15:55:00,00:10:00,Ca chiều vắt đêm
+1916,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1917,2026-06-27,Lý Văn Oai,Ca Sáng,07:51:00,16:08:00,Bình thường
+1918,2026-06-28,Mai Thị Phúc,Ca Chiều,15:54:00,00:12:00,Ca chiều vắt đêm
+1919,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1920,2026-05-31,Nguyễn Văn An,Ca Sáng,07:57:00,16:03:00,Đi muộn nhẹ
+1921,2026-06-01,Trần Thị Bình,Ca Chiều,15:56:00,00:13:00,Ca chiều vắt đêm
+1922,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1923,2026-06-03,Phạm Thị Dung,Ca Sáng,07:48:00,16:01:00,Bình thường
+1924,2026-06-04,Hoàng Văn Em,Ca Chiều,15:52:00,00:05:00,Ca chiều vắt đêm
+1925,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1926,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:45:00,16:07:00,Bình thường
+1927,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:51:00,00:08:00,Ca chiều vắt đêm
+1928,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1929,2026-06-09,Hồ Thị Linh,Ca Sáng,07:50:00,16:09:00,Bình thường
+1930,2026-06-10,Ngô Văn Minh,Ca Chiều,15:59:00,00:10:00,Ca chiều vắt đêm
+1931,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1932,2026-06-12,Lý Văn Oai,Ca Sáng,07:50:00,16:00:00,Bình thường
+1933,2026-06-13,Mai Thị Phúc,Ca Chiều,15:55:00,00:15:00,Ca chiều vắt đêm
+1934,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1935,2026-06-15,Nguyễn Văn An,Ca Sáng,07:52:00,16:05:00,Đi muộn nhẹ
+1936,2026-06-16,Trần Thị Bình,Ca Chiều,15:52:00,00:00:00,Ca chiều vắt đêm
+1937,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1938,2026-06-18,Phạm Thị Dung,Ca Sáng,07:56:00,16:09:00,Bình thường
+1939,2026-06-19,Hoàng Văn Em,Ca Chiều,15:56:00,00:02:00,Ca chiều vắt đêm
+1940,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1941,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:55:00,16:08:00,Bình thường
+1942,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:59:00,00:03:00,Ca chiều vắt đêm
+1943,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1944,2026-06-24,Hồ Thị Linh,Ca Sáng,07:57:00,16:01:00,Bình thường
+1945,2026-06-25,Ngô Văn Minh,Ca Chiều,15:50:00,00:03:00,Ca chiều vắt đêm
+1946,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1947,2026-06-27,Lý Văn Oai,Ca Sáng,07:54:00,16:01:00,Bình thường
+1948,2026-06-28,Mai Thị Phúc,Ca Chiều,15:57:00,00:08:00,Ca chiều vắt đêm
+1949,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1950,2026-05-31,Nguyễn Văn An,Ca Sáng,07:58:00,,Quên bấm giờ ra (Missing value)
+1951,2026-06-01,Trần Thị Bình,Ca Chiều,15:55:00,00:08:00,Ca chiều vắt đêm
+1952,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1953,2026-06-03,Phạm Thị Dung,Ca Sáng,07:53:00,16:09:00,Bình thường
+1954,2026-06-04,Hoàng Văn Em,Ca Chiều,15:52:00,00:03:00,Ca chiều vắt đêm
+1955,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1956,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:51:00,16:07:00,Bình thường
+1957,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:55:00,00:10:00,Ca chiều vắt đêm
+1958,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1959,2026-06-09,Hồ Thị Linh,Ca Sáng,07:47:00,16:09:00,Bình thường
+1960,2026-06-10,Ngô Văn Minh,Ca Chiều,15:59:00,00:09:00,Ca chiều vắt đêm
+1961,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1962,2026-06-12,Lý Văn Oai,Ca Sáng,07:50:00,16:03:00,Bình thường
+1963,2026-06-13,Mai Thị Phúc,Ca Chiều,15:58:00,00:03:00,Ca chiều vắt đêm
+1964,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1965,2026-06-15,Nguyễn Văn An,Ca Sáng,07:46:00,16:02:00,Đi muộn nhẹ
+1966,2026-06-16,Trần Thị Bình,Ca Chiều,15:57:00,00:05:00,Ca chiều vắt đêm
+1967,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1968,2026-06-18,Phạm Thị Dung,Ca Sáng,07:57:00,16:02:00,Bình thường
+1969,2026-06-19,Hoàng Văn Em,Ca Chiều,15:55:00,00:12:00,Ca chiều vắt đêm
+1970,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1971,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:45:00,16:10:00,Bình thường
+1972,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:58:00,00:07:00,Ca chiều vắt đêm
+1973,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1974,2026-06-24,Hồ Thị Linh,Ca Sáng,07:50:00,16:04:00,Bình thường
+1975,2026-06-25,Ngô Văn Minh,Ca Chiều,15:51:00,00:10:00,Ca chiều vắt đêm
+1976,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1977,2026-06-27,Lý Văn Oai,Ca Sáng,07:59:00,16:10:00,Bình thường
+1978,2026-06-28,Mai Thị Phúc,Ca Chiều,15:59:00,00:01:00,Ca chiều vắt đêm
+1979,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1980,2026-05-31,Nguyễn Văn An,Ca Sáng,07:49:00,16:06:00,Đi muộn nhẹ
+1981,2026-06-01,Trần Thị Bình,Ca Chiều,15:56:00,00:07:00,Ca chiều vắt đêm
+1982,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1983,2026-06-03,Phạm Thị Dung,Ca Sáng,07:57:00,16:08:00,Bình thường
+1984,2026-06-04,Hoàng Văn Em,Ca Chiều,15:51:00,00:12:00,Ca chiều vắt đêm
+1985,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1986,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:46:00,16:08:00,Bình thường
+1987,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:54:00,00:00:00,Ca chiều vắt đêm
+1988,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1989,2026-06-09,Hồ Thị Linh,Ca Sáng,07:55:00,16:09:00,Bình thường
+1990,2026-06-10,Ngô Văn Minh,Ca Chiều,15:58:00,00:03:00,Ca chiều vắt đêm
+1991,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1992,2026-06-12,Lý Văn Oai,Ca Sáng,07:56:00,16:03:00,Bình thường
+1993,2026-06-13,Mai Thị Phúc,Ca Chiều,15:58:00,00:05:00,Ca chiều vắt đêm
+1994,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1995,2026-06-15,Nguyễn Văn An,Ca Sáng,07:55:00,16:06:00,Đi muộn nhẹ
+1996,2026-06-16,Trần Thị Bình,Ca Chiều,15:52:00,00:07:00,Ca chiều vắt đêm
+1997,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+1998,2026-06-18,Phạm Thị Dung,Ca Sáng,07:52:00,16:02:00,Bình thường
+1999,2026-06-19,Hoàng Văn Em,Ca Chiều,15:52:00,00:14:00,Ca chiều vắt đêm
+2000,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,,Quên bấm giờ ra (Missing value)
+2001,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:53:00,16:07:00,Bình thường
+2002,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:53:00,00:05:00,Ca chiều vắt đêm
+2003,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+2004,2026-06-24,Hồ Thị Linh,Ca Sáng,07:57:00,16:08:00,Bình thường
+2005,2026-06-25,Ngô Văn Minh,Ca Chiều,15:56:00,00:13:00,Ca chiều vắt đêm
+2006,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+2007,2026-06-27,Lý Văn Oai,Ca Sáng,07:54:00,16:05:00,Bình thường
+2008,2026-06-28,Mai Thị Phúc,Ca Chiều,15:57:00,00:15:00,Ca chiều vắt đêm
+2009,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+2010,2026-05-31,Nguyễn Văn An,Ca Sáng,07:55:00,16:06:00,Đi muộn nhẹ
+2011,2026-06-01,Trần Thị Bình,Ca Chiều,15:53:00,00:14:00,Ca chiều vắt đêm
+2012,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+2013,2026-06-03,Phạm Thị Dung,Ca Sáng,07:59:00,16:00:00,Bình thường
+2014,2026-06-04,Hoàng Văn Em,Ca Chiều,15:50:00,00:09:00,Ca chiều vắt đêm
+2015,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+2016,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:55:00,16:02:00,Bình thường
+2017,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:59:00,00:14:00,Ca chiều vắt đêm
+2018,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+2019,2026-06-09,Hồ Thị Linh,Ca Sáng,07:47:00,16:09:00,Bình thường
+2020,2026-06-10,Ngô Văn Minh,Ca Chiều,15:51:00,00:10:00,Ca chiều vắt đêm
+2021,2026-06-11,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+2022,2026-06-12,Lý Văn Oai,Ca Sáng,07:57:00,16:00:00,Bình thường
+2023,2026-06-13,Mai Thị Phúc,Ca Chiều,15:56:00,00:06:00,Ca chiều vắt đêm
+2024,2026-06-14,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+2025,2026-06-15,Nguyễn Văn An,Ca Sáng,07:49:00,16:02:00,Đi muộn nhẹ
+2026,2026-06-16,Trần Thị Bình,Ca Chiều,15:50:00,00:00:00,Ca chiều vắt đêm
+2027,2026-06-17,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+2028,2026-06-18,Phạm Thị Dung,Ca Sáng,07:58:00,16:09:00,Bình thường
+2029,2026-06-19,Hoàng Văn Em,Ca Chiều,15:56:00,00:03:00,Ca chiều vắt đêm
+2030,2026-06-20,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+2031,2026-06-21,Đặng Văn Hùng,Ca Sáng,07:45:00,16:03:00,Bình thường
+2032,2026-06-22,Bùi Thị Hoa,Ca Chiều,15:59:00,00:01:00,Ca chiều vắt đêm
+2033,2026-06-23,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+2034,2026-06-24,Hồ Thị Linh,Ca Sáng,07:50:00,16:02:00,Bình thường
+2035,2026-06-25,Ngô Văn Minh,Ca Chiều,15:55:00,00:02:00,Ca chiều vắt đêm
+2036,2026-06-26,Dương Thị Nga,Ca Đêm,22:00:00,06:00:00,Trực đêm
+2037,2026-06-27,Lý Văn Oai,Ca Sáng,07:52:00,16:09:00,Bình thường
+2038,2026-06-28,Mai Thị Phúc,Ca Chiều,15:59:00,00:13:00,Ca chiều vắt đêm
+2039,2026-06-29,Đoàn Văn Quân,Ca Đêm,22:00:00,06:00:00,Trực đêm
+2040,2026-05-31,Nguyễn Văn An,Ca Sáng,07:56:00,16:03:00,Đi muộn nhẹ
+2041,2026-06-01,Trần Thị Bình,Ca Chiều,15:59:00,00:06:00,Ca chiều vắt đêm
+2042,2026-06-02,Lê Văn Cường,Ca Đêm,22:00:00,06:00:00,Trực đêm
+2043,2026-06-03,Phạm Thị Dung,Ca Sáng,07:51:00,16:09:00,Bình thường
+2044,2026-06-04,Hoàng Văn Em,Ca Chiều,15:53:00,00:01:00,Ca chiều vắt đêm
+2045,2026-06-05,Vũ Thị Phương,Ca Đêm,22:00:00,06:00:00,Trực đêm
+2046,2026-06-06,Đặng Văn Hùng,Ca Sáng,07:52:00,16:06:00,Bình thường
+2047,2026-06-07,Bùi Thị Hoa,Ca Chiều,15:57:00,00:02:00,Ca chiều vắt đêm
+2048,2026-06-08,Đỗ Văn Kiên,Ca Đêm,22:00:00,06:00:00,Trực đêm
+2049,2026-06-09,Hồ Thị Linh,Ca Sáng,07:57:00,16:06:00,Bình thường
+2050,2026-06-10,Ngô Văn Minh,Ca Chiều,15:51:00,,Quên bấm giờ ra (Missing value)
