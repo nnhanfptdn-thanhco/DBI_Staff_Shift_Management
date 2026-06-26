@@ -7,9 +7,9 @@
 // 1. DỮ LIỆU MẪU CHUẨN TỪ 02_Insert_Mock_Data.sql
 // ==========================================
 const DEFAULT_STAFF = [
-    { UserID: 1, FullName: 'Nguyễn Văn A', Role: 'Manager', HourlyRate: 50.00 },
-    { UserID: 2, FullName: 'Trần Thị B', Role: 'Staff', HourlyRate: 25.00 },
-    { UserID: 3, FullName: 'Lê Văn C', Role: 'Staff', HourlyRate: 25.00 }
+    { UserID: 1, FullName: 'Nguyễn Văn A', Role: 'Manager', HourlyRate: 50000 },
+    { UserID: 2, FullName: 'Trần Thị B', Role: 'Staff', HourlyRate: 25000 },
+    { UserID: 3, FullName: 'Lê Văn C', Role: 'Staff', HourlyRate: 25000 }
 ];
 
 const DEFAULT_SHIFTS = [
@@ -82,13 +82,21 @@ function renderAll() {
     updateBadgesAndDropdowns();
 }
 
+function formatCurrencyVND(amount) {
+    let val = amount;
+    if (val > 0 && val < 1000) {
+        val = val * 1000;
+    }
+    return Math.round(val).toLocaleString('vi-VN') + ' đ';
+}
+
 function renderDashboard() {
     document.getElementById('dash-total-staff').textContent = state.staff.length;
     document.getElementById('dash-total-shifts').textContent = state.shifts.length;
     document.getElementById('dash-total-timecards').textContent = state.timecards.length;
     
-    // View 3: vw_High_Rate_Staff (HourlyRate >= 40)
-    const highRateStaff = state.staff.filter(s => s.HourlyRate >= 40);
+    // View 3: vw_High_Rate_Staff (HourlyRate >= 40000 hoặc >= 40)
+    const highRateStaff = state.staff.filter(s => (s.HourlyRate >= 40000 || (s.HourlyRate >= 40 && s.HourlyRate < 1000)));
     document.getElementById('dash-high-rate').textContent = highRateStaff.length;
     
     const hrListContainer = document.getElementById('high-rate-list');
@@ -98,7 +106,7 @@ function renderDashboard() {
                 <span class="smc-name">${s.FullName}</span>
                 <span class="smc-role">${s.Role}</span>
             </div>
-            <span class="smc-rate">$${s.HourlyRate.toFixed(2)}/h</span>
+            <span class="smc-rate">${formatCurrencyVND(s.HourlyRate)}/h</span>
         </div>
     `).join('') || `<p class="text-secondary text-sm">Không có nhân viên lương cao</p>`;
 
@@ -129,7 +137,7 @@ function renderStaffTable(filterType = 'all', searchQuery = '') {
     let filtered = state.staff;
 
     if (filterType === 'high') {
-        filtered = filtered.filter(s => s.HourlyRate >= 40);
+        filtered = filtered.filter(s => (s.HourlyRate >= 40000 || (s.HourlyRate >= 40 && s.HourlyRate < 1000)));
     } else if (filterType === 'manager') {
         filtered = filtered.filter(s => s.Role.toLowerCase().includes('manager'));
     }
@@ -149,14 +157,14 @@ function renderStaffTable(filterType = 'all', searchQuery = '') {
             .map(sh => `<span class="badge badge-info">${sh.ShiftName}</span>`)
             .join(' ');
 
-        const isHigh = s.HourlyRate >= 40 ? `<span class="badge badge-warning ml-2">&ge; $40</span>` : '';
+        const isHigh = (s.HourlyRate >= 40000 || (s.HourlyRate >= 40 && s.HourlyRate < 1000)) ? `<span class="badge badge-warning ml-2">&ge; 40k</span>` : '';
 
         return `
             <tr>
                 <td><strong>#${s.UserID}</strong></td>
                 <td>${s.FullName} ${isHigh}</td>
                 <td><span class="badge badge-outline">${s.Role}</span></td>
-                <td><strong>$${s.HourlyRate.toFixed(2)}</strong></td>
+                <td><strong>${formatCurrencyVND(s.HourlyRate)}</strong></td>
                 <td>${shiftNames || '<span class="text-muted">Chưa phân ca</span>'}</td>
                 <td>
                     <button class="btn btn-secondary btn-sm" onclick="deleteStaff(${s.UserID})">
@@ -257,7 +265,7 @@ function renderTimecards() {
                 <td><code>${r.CheckOut}</code></td>
                 <td><strong>${timeFormatted}</strong></td>
                 <td>${badgeStatus}</td>
-                <td><strong class="text-amber">$${r.estWage.toFixed(2)}</strong></td>
+                <td><strong class="text-amber">${formatCurrencyVND(r.estWage)}</strong></td>
             </tr>
         `;
     }).join('');

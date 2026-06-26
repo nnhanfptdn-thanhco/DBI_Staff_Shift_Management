@@ -119,7 +119,7 @@
                         <div class="stat-info">
                             <span class="stat-label">Nhân Viên Lương Cao</span>
                             <h3 class="stat-value" id="dash-high-rate">0</h3>
-                            <span class="stat-desc">Lương &ge; $40.00/h (View 3)</span>
+                            <span class="stat-desc">Lương &ge; 40.000 VNĐ/h (View 3)</span>
                         </div>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                 <div class="section-toolbar">
                     <div class="filter-group">
                         <button class="btn btn-filter active" data-filter="all">Tất cả</button>
-                        <button class="btn btn-filter" data-filter="high">Lương cao (&ge; $40)</button>
+                        <button class="btn btn-filter" data-filter="high">Lương cao (&ge; 40.000 VNĐ)</button>
                         <button class="btn btn-filter" data-filter="manager">Quản lý (Manager)</button>
                     </div>
                     <button class="btn btn-primary" id="btn-open-add-staff">
@@ -297,8 +297,8 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="input-rate">Mức Lương/Giờ ($ - CHECK > 0)</label>
-                    <input type="number" step="0.5" id="input-rate" required placeholder="VD: 30.00" min="1">
+                    <label for="input-rate">Mức Lương/Giờ (VNĐ - CHECK > 0)</label>
+                    <input type="number" step="1000" id="input-rate" required placeholder="VD: 30000" min="1000">
                 </div>
                 <div class="modal-actions">
                     <button type="button" class="btn btn-secondary btn-close-modal">Hủy</button>
