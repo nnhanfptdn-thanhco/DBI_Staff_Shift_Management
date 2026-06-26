@@ -1,0 +1,6 @@
+TimecardID,WorkDate,StaffName,ShiftName,CheckIn,CheckOut
+101,2026-06-25,Nguyễn Văn A,Ca Sáng,07:55:00,16:05:00
+102,2026-06-25,Trần Thị B,Ca Sáng,08:15:00,16:00:00
+103,2026-06-25,Lê Văn C,Ca Chiều,15:50:00,00:15:00
+104,2026-06-26,Nguyễn Văn A,Ca Chiều,22:00:00,06:00:00
+105,2026-06-26,Trần Thị B,Ca Sáng,08:00:00,
