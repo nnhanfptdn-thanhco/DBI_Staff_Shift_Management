@@ -1,0 +1,10 @@
+TimecardID,WorkDate,StaffName,ShiftName,CheckIn,CheckOut,Notes
+1,2026-06-20,Nguyễn Văn A,Ca Sáng,07:55:00,16:05:00,Bình thường
+2,2026-06-20,Trần Thị B,Ca Sáng,08:15:00,16:00:00,Đi muộn do kẹt xe
+3,2026-06-21,Lê Văn C,Ca Chiều,15:50:00,00:15:00,Ca vắt đêm
+4,2026-06-22,Nguyễn Văn A,Ca Chiều,22:00:00,06:00:00,Trực đêm
+5,2026-06-23,Trần Thị B,Ca Sáng,08:00:00,NaN,Quên bấm giờ ra
+6,2026-06-23,Lê Văn C,Ca Chiều,NaN,23:55:00,Máy chấm công lỗi mất checkin
+7,2026-06-24,Nguyễn Văn A,Ca Sáng,07:50:00,16:00:00,Bình thường
+8,2026-06-24,Trần Thị B,Ca Sáng,07:55:00,16:05:00,Dữ liệu bị trùng lặp (Duplicate)
+8,2026-06-24,Trần Thị B,Ca Sáng,07:55:00,16:05:00,Dữ liệu bị trùng lặp (Duplicate)
