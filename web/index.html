@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ Thống Quản Lý Ca Làm Việc & Chấm Công - DBI202</title>
+    <meta name="description" content="Giao diện Web Quản lý nhân viên, phân ca làm việc và chấm công tự động. Dự án môn học Cơ sở dữ liệu DBI202.">
+    
+    <!-- Google Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-logo">
+                    <span class="material-symbols-outlined icon-logo">badge</span>
+                </div>
+                <div class="brand-text">
+                    <h1>ShiftMaster</h1>
+                    <span class="badge-dbi">DBI202 Project</span>
+                </div>
+            </div>
+
+            <nav class="nav-menu">
+                <div class="nav-label">MENU CHÍNH</div>
+                <a href="#dashboard" class="nav-item active" data-tab="dashboard">
+                    <span class="material-symbols-outlined">dashboard</span>
+                    <span>Tổng Quan</span>
+                </a>
+                <a href="#staff" class="nav-item" data-tab="staff">
+                    <span class="material-symbols-outlined">group</span>
+                    <span>Nhân Viên</span>
+                    <span class="nav-badge" id="staff-count-badge">3</span>
+                </a>
+                <a href="#shifts" class="nav-item" data-tab="shifts">
+                    <span class="material-symbols-outlined">schedule</span>
+                    <span>Phân Ca & Lịch</span>
+                </a>
+                <a href="#timecards" class="nav-item" data-tab="timecards">
+                    <span class="material-symbols-outlined">fact_check</span>
+                    <span>Chấm Công & Lương</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="system-status">
+                    <span class="status-dot"></span>
+                    <span>SQL Schema Connected</span>
+                </div>
+                <p class="author-info">Thiết kế chuẩn mô hình ERD</p>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header Bar -->
+            <header class="top-header">
+                <div class="header-left">
+                    <h2 id="page-title">Tổng Quan Hệ Thống</h2>
+                    <p id="page-subtitle">Thống kê hoạt động chấm công và phân ca nhân viên</p>
+                </div>
+                <div class="header-right">
+                    <div class="search-box">
+                        <span class="material-symbols-outlined search-icon">search</span>
+                        <input type="text" id="global-search" placeholder="Tìm nhanh nhân viên, ca...">
+                    </div>
+                    <button class="btn btn-primary" id="btn-quick-action">
+                        <span class="material-symbols-outlined">add</span>
+                        <span>Mô Phỏng Chấm Công</span>
+                    </button>
+                </div>
+            </header>
+
+            <!-- TAB 1: DASHBOARD -->
+            <section id="tab-dashboard" class="tab-pane active">
+                <div class="stats-grid">
+                    <div class="stat-card glass-card purple-glow">
+                        <div class="stat-icon">
+                            <span class="material-symbols-outlined">group</span>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-label">Tổng Nhân Viên (STAFF)</span>
+                            <h3 class="stat-value" id="dash-total-staff">0</h3>
+                            <span class="stat-desc">Đang hoạt động trong CSDL</span>
+                        </div>
+                    </div>
+                    <div class="stat-card glass-card blue-glow">
+                        <div class="stat-icon">
+                            <span class="material-symbols-outlined">work_history</span>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-label">Ca Làm Việc (SHIFT)</span>
+                            <h3 class="stat-value" id="dash-total-shifts">0</h3>
+                            <span class="stat-desc">Sáng & Chiều</span>
+                        </div>
+                    </div>
+                    <div class="stat-card glass-card emerald-glow">
+                        <div class="stat-icon">
+                            <span class="material-symbols-outlined">how_to_reg</span>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-label">Lượt Chấm Công (TIMECARD)</span>
+                            <h3 class="stat-value" id="dash-total-timecards">0</h3>
+                            <span class="stat-desc">Đã xử lý giờ làm</span>
+                        </div>
+                    </div>
+                    <div class="stat-card glass-card amber-glow">
+                        <div class="stat-icon">
+                            <span class="material-symbols-outlined">workspace_premium</span>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-label">Nhân Viên Lương Cao</span>
+                            <h3 class="stat-value" id="dash-high-rate">0</h3>
+                            <span class="stat-desc">Lương &ge; $40.00/h (View 3)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dashboard Charts / Views Summary -->
+                <div class="dashboard-grid">
+                    <div class="card glass-card span-2">
+                        <div class="card-header">
+                            <div>
+                                <h3>Thống Kê Đi Làm Theo Ngày</h3>
+                                <p>Tái hiện Database View: <code>vw_Daily_Attendance</code></p>
+                            </div>
+                            <span class="badge badge-outline">GROUP BY WorkDate</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="attendance-bars" id="attendance-chart-container">
+                                <!-- Dynamic chart generated by JS -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card glass-card">
+                        <div class="card-header">
+                            <div>
+                                <h3>Top Nhân Viên Lương Cao</h3>
+                                <p>Tái hiện View: <code>vw_High_Rate_Staff</code></p>
+                            </div>
+                            <span class="material-symbols-outlined text-amber">stars</span>
+                        </div>
+                        <div class="card-body" id="high-rate-list">
+                            <!-- Dynamic list generated by JS -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 2: STAFF DIRECTORY -->
+            <section id="tab-staff" class="tab-pane">
+                <div class="section-toolbar">
+                    <div class="filter-group">
+                        <button class="btn btn-filter active" data-filter="all">Tất cả</button>
+                        <button class="btn btn-filter" data-filter="high">Lương cao (&ge; $40)</button>
+                        <button class="btn btn-filter" data-filter="manager">Quản lý (Manager)</button>
+                    </div>
+                    <button class="btn btn-primary" id="btn-open-add-staff">
+                        <span class="material-symbols-outlined">person_add</span>
+                        <span>Thêm Nhân Viên</span>
+                    </button>
+                </div>
+
+                <div class="card glass-card">
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>UserID</th>
+                                    <th>Họ và Tên (FullName)</th>
+                                    <th>Chức Vụ (Role)</th>
+                                    <th>Mức Lương (HourlyRate)</th>
+                                    <th>Ca Phân Công</th>
+                                    <th>Thao Tác</th>
+                                </tr>
+                            </thead>
+                            <tbody id="staff-table-body">
+                                <!-- Dynamic staff rows -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 3: SHIFTS & SCHEDULES -->
+            <section id="tab-shifts" class="tab-pane">
+                <div class="shifts-overview-grid" id="shifts-container">
+                    <!-- Dynamic shift cards -->
+                </div>
+
+                <div class="card glass-card mt-6">
+                    <div class="card-header">
+                        <div>
+                            <h3>Bảng Tổng Hợp Phân Ca Nhân Viên</h3>
+                            <p>Tái hiện Database View: <code>vw_Staff_Shifts</code> (JOIN STAFF, SCHEDULES, SHIFT)</p>
+                        </div>
+                        <button class="btn btn-secondary btn-sm" id="btn-open-assign-modal">
+                            <span class="material-symbols-outlined">add_link</span>
+                            <span>Phân Ca Mới</span>
+                        </button>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Nhân Viên</th>
+                                    <th>Ca Làm Việc (ShiftName)</th>
+                                    <th>Khung Giờ (Time_Range)</th>
+                                    <th>Trạng Thái</th>
+                                </tr>
+                            </thead>
+                            <tbody id="schedules-table-body">
+                                <!-- Dynamic schedules rows -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 4: TIMECARDS & PAYROLL -->
+            <section id="tab-timecards" class="tab-pane">
+                <div class="alert glass-alert mb-6">
+                    <span class="material-symbols-outlined alert-icon">lightbulb</span>
+                    <div class="alert-content">
+                        <strong>Tự động hóa tính toán chuẩn Node.js:</strong>
+                        <span>Hệ thống áp dụng thuật toán trong <code>process_timecards.js</code> để tự động tính số giờ làm (<code>TotalHours</code>) kể cả ca qua đêm, đồng thời tự động đánh giá trạng thái <code>On Time</code> hoặc <code>Late</code> dựa vào giờ vào làm.</span>
+                    </div>
+                </div>
+
+                <div class="card glass-card">
+                    <div class="card-header">
+                        <div>
+                            <h3>Nhật Ký Thẻ Chấm Công & Ước Tính Lương</h3>
+                            <p>Bảng <code>TIMECARD</code> kết hợp tính lương thù lao theo giờ</p>
+                        </div>
+                        <button class="btn btn-primary btn-sm" id="btn-open-checkin">
+                            <span class="material-symbols-outlined">timer</span>
+                            <span>Chấm Công Hôm Nay</span>
+                        </button>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Ngày (WorkDate)</th>
+                                    <th>Nhân Viên</th>
+                                    <th>Ca</th>
+                                    <th>Giờ Vào (CheckIn)</th>
+                                    <th>Giờ Ra (CheckOut)</th>
+                                    <th>Tổng Giờ</th>
+                                    <th>Trạng Thái</th>
+                                    <th>Thù Lao Dự Kiến</th>
+                                </tr>
+                            </thead>
+                            <tbody id="timecards-table-body">
+                                <!-- Dynamic timecards rows -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- MODAL: ADD STAFF -->
+    <div class="modal-backdrop" id="modal-add-staff">
+        <div class="modal glass-modal">
+            <div class="modal-header">
+                <h3>Thêm Nhân Viên Mới</h3>
+                <button class="btn-close-modal"><span class="material-symbols-outlined">close</span></button>
+            </div>
+            <form id="form-add-staff" class="modal-form">
+                <div class="form-group">
+                    <label for="input-userid">UserID (INT PRIMARY KEY)</label>
+                    <input type="number" id="input-userid" required placeholder="VD: 4">
+                </div>
+                <div class="form-group">
+                    <label for="input-fullname">Họ và Tên (FullName)</label>
+                    <input type="text" id="input-fullname" required placeholder="VD: Phạm Văn D">
+                </div>
+                <div class="form-group">
+                    <label for="input-role">Chức Vụ (Role)</label>
+                    <select id="input-role">
+                        <option value="Staff">Staff</option>
+                        <option value="Manager">Manager</option>
+                        <option value="Supervisor">Supervisor</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="input-rate">Mức Lương/Giờ ($ - CHECK > 0)</label>
+                    <input type="number" step="0.5" id="input-rate" required placeholder="VD: 30.00" min="1">
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary btn-close-modal">Hủy</button>
+                    <button type="submit" class="btn btn-primary">Lưu Vào CSDL Demo</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- MODAL: CHECKIN / TIMECARD -->
+    <div class="modal-backdrop" id="modal-checkin">
+        <div class="modal glass-modal">
+            <div class="modal-header">
+                <h3>Mô Phỏng Quẹt Thẻ Chấm Công</h3>
+                <button class="btn-close-modal"><span class="material-symbols-outlined">close</span></button>
+            </div>
+            <form id="form-checkin" class="modal-form">
+                <div class="form-group">
+                    <label for="ci-staff">Chọn Nhân Viên</label>
+                    <select id="ci-staff" required></select>
+                </div>
+                <div class="form-group">
+                    <label for="ci-shift">Ca Làm Việc</label>
+                    <select id="ci-shift" required></select>
+                </div>
+                <div class="form-group">
+                    <label for="ci-date">Ngày Làm Việc (WorkDate)</label>
+                    <input type="date" id="ci-date" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="ci-in">Giờ Vào (CheckIn)</label>
+                        <input type="time" id="ci-in" step="1" required value="08:05:00">
+                    </div>
+                    <div class="form-group">
+                        <label for="ci-out">Giờ Ra (CheckOut)</label>
+                        <input type="time" id="ci-out" step="1" required value="16:00:00">
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary btn-close-modal">Hủy</button>
+                    <button type="submit" class="btn btn-primary">Xử Lý Thẻ Chấm Công</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -7,36 +7,33 @@
 \usepackage{listings}
 \geometry{a4paper, margin=1in}
 
-\title{\textbf{BÁO CÁO BÀI TẬP LỚN RBL - CƠ SỞ DỮ LIỆU (DBI202)}\\
-\large Hệ thống Quản lý Ca làm việc và Chấm công (Staff Shift Management)}
-\author{Nhóm Sinh Viên: Nhóm 01}
+\title{\textbf{BÁO CÁO RBL MÔN CƠ SỞ DỮ LIỆU (DBI202)}\\
+\large TIẾN ĐỘ THỰC HIỆN TỪ TUẦN 5 ĐẾN TUẦN 7\\
+\small Đề tài: Quản lý Ca làm việc và Chấm công (Staff Shift Management)}
+\author{Nhóm Thực Hiện: Nhóm 01}
 \date{\today}
 
 \begin{document}
 
 \maketitle
 
-\begin{abstract}
-Báo cáo này tổng hợp tiến độ nghiên cứu và triển khai đề tài học tập theo định hướng nghiên cứu (RBL) môn Cơ sở dữ liệu (DBI202) từ Tuần 5 đến Tuần 7. Nội dung bao gồm việc xác định câu hỏi nghiên cứu, thiết kế mô hình thực thể - liên kết (ERD), xây dựng lược đồ quan hệ trên SQL Server và phát triển mã nguồn JavaScript (Node.js) để làm sạch, xử lý dữ liệu chấm công thực tế.
-\end{abstract}
-
 \tableofcontents
 \newpage
 
-\section{Tuần 5: Chọn đề tài \& Xác định vai trò của Database}
+\section{Báo cáo Tuần 5: Chọn đề tài \& Xác định vai trò của DB}
 
 \subsection{Tên đề tài nghiên cứu}
 \textbf{Hệ thống Quản lý Ca làm việc và Chấm công nhân viên (Staff Shift Management)}
 
 \subsection{Lý do chọn đề tài}
-Trong thực tế, các cửa hàng bán lẻ, chuỗi F\&B hay doanh nghiệp vừa và nhỏ sử dụng rất nhiều nhân viên làm việc theo ca. Việc chấm công thủ công bằng sổ tay hoặc Excel rất dễ gây ra nhầm lẫn giờ làm, tính sai tiền lương thù lao, đặc biệt là với những ca làm đêm vắt sang ngày hôm sau.
+Hiện nay, các cửa hàng bán lẻ, chuỗi F\&B hay doanh nghiệp vừa và nhỏ sử dụng rất nhiều nhân viên làm việc theo ca (part-time và full-time). Việc chấm công bằng Excel thủ công hoặc chép tay vào sổ rất dễ gây ra nhầm lẫn giờ làm, tính sai tiền lương, nhất là với các ca làm đêm vắt sang ngày hôm sau.
 
-Vì vậy, nhóm chọn đề tài này nhằm mục đích thiết kế một cơ sở dữ liệu quan hệ chặt chẽ giúp tự động hóa việc lưu trữ lịch làm việc, ghi nhận thẻ chấm công hằng ngày và hỗ trợ tính toán thù lao một cách chính xác.
+Nhóm chọn đề tài này nhằm mục đích thiết kế một cơ sở dữ liệu quan hệ chặt chẽ giúp tự động hóa việc lưu trữ lịch làm việc, ghi nhận thẻ chấm công hằng ngày và hỗ trợ tính toán thù lao một cách chính xác.
 
 \subsection{Xác định các thực thể và mối quan hệ}
 Mô hình dữ liệu của hệ thống gồm 3 thực thể chính:
 \begin{itemize}
-    \item \textbf{STAFF (Nhân viên):} Quản lý thông tin mã nhân viên (\texttt{UserID}), họ tên, vai trò và mức lương thù lao theo giờ (\texttt{HourlyRate}).
+    \item \textbf{STAFF (Nhân viên):} Quản lý mã nhân viên (\texttt{UserID}), họ tên, vai trò và mức lương thù lao theo giờ (\texttt{HourlyRate}).
     \item \textbf{SHIFT (Ca làm việc):} Quản lý các khung ca định sẵn (\texttt{ShiftID}, \texttt{ShiftName}, \texttt{Time\_Range}).
     \item \textbf{TIMECARD (Thẻ chấm công):} Lưu nhật ký quẹt thẻ hằng ngày gồm ngày làm (\texttt{WorkDate}), giờ vào (\texttt{CheckIn}), giờ ra (\texttt{CheckOut}).
 \end{itemize}
@@ -57,7 +54,7 @@ Mô hình dữ liệu của hệ thống gồm 3 thực thể chính:
     \item \textbf{Dữ liệu động:} Lịch sử ra/vào làm việc phát sinh hằng ngày từ thẻ chấm công của nhân viên.
 \end{itemize}
 
-\section{Tuần 6: Công cụ \& Quy trình triển khai Dataset}
+\section{Báo cáo Tuần 6: Công cụ \& Quy trình triển khai Dataset}
 
 \subsection{Giới thiệu công cụ sử dụng}
 Nhóm thống nhất sử dụng các công cụ và kỹ thuật sau:
@@ -77,7 +74,7 @@ Luồng thu thập và xử lý tập dữ liệu của hệ thống diễn ra q
     \item \textbf{Trình bày đầu ra:} Dữ liệu sau xử lý xuất ra file chuẩn và kết nối lên giao diện Web để quản lý theo dõi.
 \end{enumerate}
 
-\section{Tuần 7: Thu thập dữ liệu thực tế \& Xử lý ban đầu}
+\section{Báo cáo Tuần 7: Thu thập dữ liệu thực tế \& Xử lý ban đầu}
 
 \subsection{Quá trình tạo tập dữ liệu thô (Raw Data)}
 Nhóm sử dụng câu lệnh \texttt{INSERT INTO} tạo tập dữ liệu thử nghiệm (Mock Data) sát với thực tế, bao gồm:

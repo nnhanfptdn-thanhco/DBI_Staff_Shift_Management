@@ -1,0 +1,16 @@
+{
+  "name": "dbi-staff-shift-management",
+  "version": "1.0.0",
+  "description": "Dự án Quản lý Ca làm việc và Chấm công - DBI202",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite web --port 3000 --host",
+    "build": "vite build web",
+    "preview": "vite preview web",
+    "node-script": "node nodejs/process_timecards.js"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  }
+}
